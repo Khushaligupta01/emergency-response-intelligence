@@ -1,4 +1,4 @@
-@"
+
 # AI-Powered Emergency Response Intelligence Platform
 
 An AI-powered full-stack platform for disaster management, emergency resource planning, demand prediction, logistics optimization, and operational decision support.
