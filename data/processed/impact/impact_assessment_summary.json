@@ -1,0 +1,36 @@
+{
+  "event_id": 1104121,
+  "episode_id": 20,
+  "polygon_type": "Poly_Affected",
+  "hazard_semantics": "GDACS reported affected area",
+  "not_observed_inundation": true,
+  "gdacs_source": "GDACS",
+  "analysis_crs": "EPSG:32645",
+  "no_poly_global_used": true,
+  "no_synthetic_data": true,
+  "buildings": {
+    "total_count": 200402,
+    "affected_count": 198182,
+    "affected_percent": 98.89222662448478,
+    "total_footprint_area_km2": 20.544126997278216,
+    "affected_footprint_area_km2": 20.437000117494968,
+    "affected_footprint_percent": 99.47855228991992
+  },
+  "population": {
+    "total_population": 127903134.74989772,
+    "affected_population": 127789039.64787817,
+    "affected_percent": 99.91079569531846,
+    "total_valid_pixels": 4730704,
+    "affected_pixels": 4721961
+  },
+  "outputs": {
+    "affected_buildings": "affected_buildings.geojson",
+    "building_summary": "building_impact_summary.json",
+    "population_summary": "population_impact_summary.json"
+  },
+  "limitations": [
+    "This assessment measures buildings and modelled population within the GDACS reported affected area; it does not establish actual flooding or inundation.",
+    "Building counts and footprint areas represent mapped OSM features only.",
+    "Population values are modelled WorldPop estimates in people per pixel; NoData cells are excluded."
+  ]
+}

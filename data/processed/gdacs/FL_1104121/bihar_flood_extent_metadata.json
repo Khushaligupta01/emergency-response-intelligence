@@ -1,0 +1,1335 @@
+{
+  "boundary_source": "geoBoundaries gbOpen India ADM1",
+  "boundary_source_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IND/ADM1/geoBoundaries-IND-ADM1.geojson",
+  "boundary_license": "CC BY 2.5 IN",
+  "event_id": 1104121,
+  "selected_event_id": "1104121",
+  "source": "GDACS",
+  "disaster_type": "flood",
+  "study_area": "Bihar",
+  "processing_status": "complete_analyst_reported_affected_area_not_observed_inundation",
+  "boundary_feature_count": 1,
+  "boundary_crs": "EPSG:4326",
+  "boundary_geometry_type": "Polygon",
+  "boundary_valid": true,
+  "boundary_bounds": [
+    83.32023795297891,
+    24.28618189657001,
+    88.3005210359258,
+    27.521631570162608
+  ],
+  "boundary_area_km2_epsg32645": 94192.47009610117,
+  "selected_episode_id": 20,
+  "episode_ids_examined": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "polygon_types_examined": [
+    "Point_Centroid",
+    "Poly_Affected",
+    "Poly_Global",
+    "GFM Observed flood extent",
+    "NASA/MODIS optical product",
+    "GDACS-described microwave flood detection"
+  ],
+  "geometry_semantics": "GDACS analyst-reported affected area",
+  "original_feature_count": 3,
+  "affected_source_feature_count": 1,
+  "excluded_non_affected_feature_count": 2,
+  "polygons_after_cleaning": 7,
+  "polygons_intersecting_bihar": 7,
+  "final_geometry_type": "MultiPolygon",
+  "final_area_km2": 94055.9375048339,
+  "area_calculation_crs": "EPSG:32645",
+  "storage_crs": "EPSG:4326",
+  "final_geometry_valid": true,
+  "final_geometry_empty": false,
+  "intersection_results": [
+    {
+      "episode_id": 1,
+      "polygon_type": "Point_Centroid",
+      "geometry_type": "Point",
+      "geometry_valid": true,
+      "polygon_components": 0,
+      "bbox_epsg4326": [
+        78.6099,
+        11.3324,
+        78.6099,
+        11.3324
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 1,
+      "polygon_type": "Poly_Affected",
+      "geometry_type": "Polygon",
+      "geometry_valid": true,
+      "polygon_components": 1,
+      "bbox_epsg4326": [
+        79.076,
+        29.9256,
+        80.102,
+        31.0723
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 1,
+      "polygon_type": "Poly_Global",
+      "geometry_type": "Polygon",
+      "geometry_valid": true,
+      "polygon_components": 1,
+      "bbox_epsg4326": [
+        79.076,
+        29.9256,
+        80.102,
+        31.0723
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 2,
+      "polygon_type": "Point_Centroid",
+      "geometry_type": "Point",
+      "geometry_valid": true,
+      "polygon_components": 0,
+      "bbox_epsg4326": [
+        78.6099,
+        11.3324,
+        78.6099,
+        11.3324
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 2,
+      "polygon_type": "Poly_Affected",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "polygon_components": 3,
+      "bbox_epsg4326": [
+        77.1206,
+        28.1565,
+        78.1239,
+        30.4064
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 2,
+      "polygon_type": "Poly_Global",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "polygon_components": 4,
+      "bbox_epsg4326": [
+        77.1206,
+        28.1565,
+        80.102,
+        31.0723
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 3,
+      "polygon_type": "Point_Centroid",
+      "geometry_type": "Point",
+      "geometry_valid": true,
+      "polygon_components": 0,
+      "bbox_epsg4326": [
+        78.6099,
+        11.3324,
+        78.6099,
+        11.3324
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 3,
+      "polygon_type": "Poly_Affected",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "polygon_components": 3,
+      "bbox_epsg4326": [
+        75.6867,
+        23.5413,
+        78.8017,
+        26.2232
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 3,
+      "polygon_type": "Poly_Global",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "polygon_components": 7,
+      "bbox_epsg4326": [
+        75.6867,
+        23.5413,
+        80.102,
+        31.0723
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 4,
+      "polygon_type": "Point_Centroid",
+      "geometry_type": "Point",
+      "geometry_valid": true,
+      "polygon_components": 0,
+      "bbox_epsg4326": [
+        78.6099,
+        11.3324,
+        78.6099,
+        11.3324
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 4,
+      "polygon_type": "Poly_Affected",
+      "geometry_type": "Polygon",
+      "geometry_valid": true,
+      "polygon_components": 1,
+      "bbox_epsg4326": [
+        85.6621,
+        21.2635,
+        87.1843,
+        22.5676
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 4,
+      "polygon_type": "Poly_Global",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "polygon_components": 8,
+      "bbox_epsg4326": [
+        75.6867,
+        21.2635,
+        87.1843,
+        31.0723
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 5,
+      "polygon_type": "Point_Centroid",
+      "geometry_type": "Point",
+      "geometry_valid": true,
+      "polygon_components": 0,
+      "bbox_epsg4326": [
+        78.6099,
+        11.3324,
+        78.6099,
+        11.3324
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 5,
+      "polygon_type": "Poly_Affected",
+      "geometry_type": "Polygon",
+      "geometry_valid": true,
+      "polygon_components": 1,
+      "bbox_epsg4326": [
+        77.1217,
+        30.4305,
+        77.4062,
+        30.6939
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 5,
+      "polygon_type": "Poly_Global",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "polygon_components": 9,
+      "bbox_epsg4326": [
+        75.6867,
+        21.2635,
+        87.1843,
+        31.0723
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 6,
+      "polygon_type": "Point_Centroid",
+      "geometry_type": "Point",
+      "geometry_valid": true,
+      "polygon_components": 0,
+      "bbox_epsg4326": [
+        78.6099,
+        11.3324,
+        78.6099,
+        11.3324
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 6,
+      "polygon_type": "Poly_Affected",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": false,
+      "polygon_components": 2,
+      "bbox_epsg4326": [
+        81.0388,
+        24.32,
+        82.3067,
+        25.1922
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 6,
+      "polygon_type": "Poly_Global",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": false,
+      "polygon_components": 11,
+      "bbox_epsg4326": [
+        75.6867,
+        21.2635,
+        87.1843,
+        31.0723
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 7,
+      "polygon_type": "Point_Centroid",
+      "geometry_type": "Point",
+      "geometry_valid": true,
+      "polygon_components": 0,
+      "bbox_epsg4326": [
+        78.6099,
+        11.3324,
+        78.6099,
+        11.3324
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 7,
+      "polygon_type": "Poly_Affected",
+      "geometry_type": "Polygon",
+      "geometry_valid": true,
+      "polygon_components": 1,
+      "bbox_epsg4326": [
+        91.2373,
+        23.7862,
+        91.3274,
+        23.8763
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 7,
+      "polygon_type": "Poly_Global",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": false,
+      "polygon_components": 12,
+      "bbox_epsg4326": [
+        75.6867,
+        21.2635,
+        91.3274,
+        31.0723
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 8,
+      "polygon_type": "Point_Centroid",
+      "geometry_type": "Point",
+      "geometry_valid": true,
+      "polygon_components": 0,
+      "bbox_epsg4326": [
+        78.6099,
+        11.3324,
+        78.6099,
+        11.3324
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 8,
+      "polygon_type": "Poly_Affected",
+      "geometry_type": "Polygon",
+      "geometry_valid": true,
+      "polygon_components": 1,
+      "bbox_epsg4326": [
+        82.5218,
+        19.1838,
+        82.6119,
+        19.2739
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 8,
+      "polygon_type": "Poly_Global",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": false,
+      "polygon_components": 13,
+      "bbox_epsg4326": [
+        75.6867,
+        19.1838,
+        91.3274,
+        31.0723
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 9,
+      "polygon_type": "Point_Centroid",
+      "geometry_type": "Point",
+      "geometry_valid": true,
+      "polygon_components": 0,
+      "bbox_epsg4326": [
+        78.6099,
+        11.3324,
+        78.6099,
+        11.3324
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 9,
+      "polygon_type": "Poly_Affected",
+      "geometry_type": "Polygon",
+      "geometry_valid": true,
+      "polygon_components": 1,
+      "bbox_epsg4326": [
+        82.9626,
+        25.2906,
+        83.0527,
+        25.3807
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 9,
+      "polygon_type": "Poly_Global",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": false,
+      "polygon_components": 14,
+      "bbox_epsg4326": [
+        75.6867,
+        19.1838,
+        91.3274,
+        31.0723
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 10,
+      "polygon_type": "Point_Centroid",
+      "geometry_type": "Point",
+      "geometry_valid": true,
+      "polygon_components": 0,
+      "bbox_epsg4326": [
+        78.6099,
+        11.3324,
+        78.6099,
+        11.3324
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 10,
+      "polygon_type": "Poly_Affected",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "polygon_components": 5,
+      "bbox_epsg4326": [
+        80.0999,
+        24.203,
+        81.1831,
+        25.1879
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 10,
+      "polygon_type": "Poly_Global",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": false,
+      "polygon_components": 17,
+      "bbox_epsg4326": [
+        75.6867,
+        19.1838,
+        91.3274,
+        31.0723
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 11,
+      "polygon_type": "Point_Centroid",
+      "geometry_type": "Point",
+      "geometry_valid": true,
+      "polygon_components": 0,
+      "bbox_epsg4326": [
+        78.6099,
+        11.3324,
+        78.6099,
+        11.3324
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 11,
+      "polygon_type": "Poly_Affected",
+      "geometry_type": "Polygon",
+      "geometry_valid": true,
+      "polygon_components": 1,
+      "bbox_epsg4326": [
+        79.5091,
+        29.3056,
+        79.5992,
+        29.3957
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 11,
+      "polygon_type": "Poly_Global",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": false,
+      "polygon_components": 18,
+      "bbox_epsg4326": [
+        75.6867,
+        19.1838,
+        91.3274,
+        31.0723
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 12,
+      "polygon_type": "Point_Centroid",
+      "geometry_type": "Point",
+      "geometry_valid": true,
+      "polygon_components": 0,
+      "bbox_epsg4326": [
+        78.6099,
+        11.3324,
+        78.6099,
+        11.3324
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 12,
+      "polygon_type": "Poly_Affected",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "polygon_components": 3,
+      "bbox_epsg4326": [
+        77.0839,
+        23.8706,
+        84.6345,
+        30.4064
+      ],
+      "intersects_bihar": true,
+      "positive_area_intersection": true,
+      "intersection_area_km2": 12.116866128722517
+    },
+    {
+      "episode_id": 12,
+      "polygon_type": "Poly_Global",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": false,
+      "polygon_components": 16,
+      "bbox_epsg4326": [
+        75.6867,
+        19.1838,
+        91.3274,
+        31.0723
+      ],
+      "intersects_bihar": true,
+      "positive_area_intersection": true,
+      "intersection_area_km2": 12.116866128722517
+    },
+    {
+      "episode_id": 13,
+      "polygon_type": "Point_Centroid",
+      "geometry_type": "Point",
+      "geometry_valid": true,
+      "polygon_components": 0,
+      "bbox_epsg4326": [
+        78.6099,
+        11.3324,
+        78.6099,
+        11.3324
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 13,
+      "polygon_type": "Poly_Affected",
+      "geometry_type": "Polygon",
+      "geometry_valid": false,
+      "polygon_components": 1,
+      "bbox_epsg4326": [
+        87.0535,
+        21.765,
+        88.3651,
+        22.9552
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 13,
+      "polygon_type": "Poly_Global",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": false,
+      "polygon_components": 17,
+      "bbox_epsg4326": [
+        75.6867,
+        19.1838,
+        91.3274,
+        31.0723
+      ],
+      "intersects_bihar": true,
+      "positive_area_intersection": true,
+      "intersection_area_km2": 12.116866128722517
+    },
+    {
+      "episode_id": 14,
+      "polygon_type": "Point_Centroid",
+      "geometry_type": "Point",
+      "geometry_valid": true,
+      "polygon_components": 0,
+      "bbox_epsg4326": [
+        78.6099,
+        11.3324,
+        78.6099,
+        11.3324
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 14,
+      "polygon_type": "Poly_Affected",
+      "geometry_type": "Polygon",
+      "geometry_valid": true,
+      "polygon_components": 1,
+      "bbox_epsg4326": [
+        72.8629,
+        21.8222,
+        73.5662,
+        22.8146
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 14,
+      "polygon_type": "Poly_Global",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": false,
+      "polygon_components": 18,
+      "bbox_epsg4326": [
+        72.8629,
+        19.1838,
+        91.3274,
+        31.0723
+      ],
+      "intersects_bihar": true,
+      "positive_area_intersection": true,
+      "intersection_area_km2": 12.116866128722517
+    },
+    {
+      "episode_id": 15,
+      "polygon_type": "Point_Centroid",
+      "geometry_type": "Point",
+      "geometry_valid": true,
+      "polygon_components": 0,
+      "bbox_epsg4326": [
+        78.6099,
+        11.3324,
+        78.6099,
+        11.3324
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 15,
+      "polygon_type": "Poly_Affected",
+      "geometry_type": "Polygon",
+      "geometry_valid": true,
+      "polygon_components": 1,
+      "bbox_epsg4326": [
+        76.0862,
+        23.6875,
+        76.4085,
+        23.9822
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 15,
+      "polygon_type": "Poly_Global",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": false,
+      "polygon_components": 18,
+      "bbox_epsg4326": [
+        72.8629,
+        19.1838,
+        91.3274,
+        31.0723
+      ],
+      "intersects_bihar": true,
+      "positive_area_intersection": true,
+      "intersection_area_km2": 12.116866128722517
+    },
+    {
+      "episode_id": 16,
+      "polygon_type": "Point_Centroid",
+      "geometry_type": "Point",
+      "geometry_valid": true,
+      "polygon_components": 0,
+      "bbox_epsg4326": [
+        78.6099,
+        11.3324,
+        78.6099,
+        11.3324
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 16,
+      "polygon_type": "Poly_Affected",
+      "geometry_type": "Polygon",
+      "geometry_valid": true,
+      "polygon_components": 1,
+      "bbox_epsg4326": [
+        76.3657,
+        9.2725,
+        77.4124,
+        10.3583
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 16,
+      "polygon_type": "Poly_Global",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": false,
+      "polygon_components": 19,
+      "bbox_epsg4326": [
+        72.8629,
+        9.2725,
+        91.3274,
+        31.0723
+      ],
+      "intersects_bihar": true,
+      "positive_area_intersection": true,
+      "intersection_area_km2": 12.116866128722517
+    },
+    {
+      "episode_id": 17,
+      "polygon_type": "Point_Centroid",
+      "geometry_type": "Point",
+      "geometry_valid": true,
+      "polygon_components": 0,
+      "bbox_epsg4326": [
+        78.6099,
+        11.3324,
+        78.6099,
+        11.3324
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 17,
+      "polygon_type": "Poly_Affected",
+      "geometry_type": "Polygon",
+      "geometry_valid": true,
+      "polygon_components": 1,
+      "bbox_epsg4326": [
+        86.8766,
+        21.4567,
+        86.9667,
+        21.5468
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 17,
+      "polygon_type": "Poly_Global",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": false,
+      "polygon_components": 20,
+      "bbox_epsg4326": [
+        72.8629,
+        9.2725,
+        91.3274,
+        31.0723
+      ],
+      "intersects_bihar": true,
+      "positive_area_intersection": true,
+      "intersection_area_km2": 12.116866128722517
+    },
+    {
+      "episode_id": 18,
+      "polygon_type": "Point_Centroid",
+      "geometry_type": "Point",
+      "geometry_valid": true,
+      "polygon_components": 0,
+      "bbox_epsg4326": [
+        78.6099,
+        11.3324,
+        78.6099,
+        11.3324
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 18,
+      "polygon_type": "Poly_Affected",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": true,
+      "polygon_components": 3,
+      "bbox_epsg4326": [
+        77.0839,
+        23.8706,
+        84.6345,
+        30.4064
+      ],
+      "intersects_bihar": true,
+      "positive_area_intersection": true,
+      "intersection_area_km2": 12.116866128722517
+    },
+    {
+      "episode_id": 18,
+      "polygon_type": "Poly_Global",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": false,
+      "polygon_components": 20,
+      "bbox_epsg4326": [
+        72.8629,
+        9.2725,
+        91.3274,
+        31.0723
+      ],
+      "intersects_bihar": true,
+      "positive_area_intersection": true,
+      "intersection_area_km2": 12.116866128722517
+    },
+    {
+      "episode_id": 19,
+      "polygon_type": "Point_Centroid",
+      "geometry_type": "Point",
+      "geometry_valid": true,
+      "polygon_components": 0,
+      "bbox_epsg4326": [
+        78.6099,
+        11.3324,
+        78.6099,
+        11.3324
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 19,
+      "polygon_type": "Poly_Affected",
+      "geometry_type": "Polygon",
+      "geometry_valid": true,
+      "polygon_components": 1,
+      "bbox_epsg4326": [
+        79.8209,
+        29.444,
+        81.0448,
+        30.809
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 19,
+      "polygon_type": "Poly_Global",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": false,
+      "polygon_components": 20,
+      "bbox_epsg4326": [
+        72.8629,
+        9.2725,
+        91.3274,
+        31.0723
+      ],
+      "intersects_bihar": true,
+      "positive_area_intersection": true,
+      "intersection_area_km2": 12.116866128722517
+    },
+    {
+      "episode_id": 20,
+      "polygon_type": "Point_Centroid",
+      "geometry_type": "Point",
+      "geometry_valid": true,
+      "polygon_components": 0,
+      "bbox_epsg4326": [
+        78.6099,
+        11.3324,
+        78.6099,
+        11.3324
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 20,
+      "polygon_type": "Poly_Affected",
+      "geometry_type": "Polygon",
+      "geometry_valid": true,
+      "polygon_components": 1,
+      "bbox_epsg4326": [
+        83.3213,
+        24.2857,
+        88.2938,
+        27.5216
+      ],
+      "intersects_bihar": true,
+      "positive_area_intersection": true,
+      "intersection_area_km2": 94055.93752084264
+    },
+    {
+      "episode_id": 20,
+      "polygon_type": "Poly_Global",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": false,
+      "polygon_components": 20,
+      "bbox_epsg4326": [
+        72.8629,
+        9.2725,
+        91.3274,
+        31.0723
+      ],
+      "intersects_bihar": true,
+      "positive_area_intersection": true,
+      "intersection_area_km2": 94068.01902967431
+    },
+    {
+      "episode_id": 21,
+      "polygon_type": "Point_Centroid",
+      "geometry_type": "Point",
+      "geometry_valid": true,
+      "polygon_components": 0,
+      "bbox_epsg4326": [
+        78.6099,
+        11.3324,
+        78.6099,
+        11.3324
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 21,
+      "polygon_type": "Poly_Affected",
+      "geometry_type": "Polygon",
+      "geometry_valid": true,
+      "polygon_components": 1,
+      "bbox_epsg4326": [
+        80.2986,
+        27.0994,
+        81.4164,
+        27.9063
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 21,
+      "polygon_type": "Poly_Global",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": false,
+      "polygon_components": 20,
+      "bbox_epsg4326": [
+        72.8629,
+        9.2725,
+        91.3274,
+        31.0723
+      ],
+      "intersects_bihar": true,
+      "positive_area_intersection": true,
+      "intersection_area_km2": 94068.01902967431
+    },
+    {
+      "episode_id": 22,
+      "polygon_type": "Point_Centroid",
+      "geometry_type": "Point",
+      "geometry_valid": true,
+      "polygon_components": 0,
+      "bbox_epsg4326": [
+        78.6099,
+        11.3324,
+        78.6099,
+        11.3324
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 22,
+      "polygon_type": "Poly_Affected",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": false,
+      "polygon_components": 33,
+      "bbox_epsg4326": [
+        76.2329,
+        8.0769,
+        80.3593,
+        13.5639
+      ],
+      "intersects_bihar": false,
+      "positive_area_intersection": false,
+      "intersection_area_km2": 0.0
+    },
+    {
+      "episode_id": 22,
+      "polygon_type": "Poly_Global",
+      "geometry_type": "MultiPolygon",
+      "geometry_valid": false,
+      "polygon_components": 52,
+      "bbox_epsg4326": [
+        72.8629,
+        8.0769,
+        91.3274,
+        31.0723
+      ],
+      "intersects_bihar": true,
+      "positive_area_intersection": true,
+      "intersection_area_km2": 94068.01936012591
+    }
+  ],
+  "positive_area_affected_candidates": [
+    {
+      "episode_id": 12,
+      "polygon_type": "Poly_Affected",
+      "geometry_valid": true,
+      "geometry_type": "MultiPolygon",
+      "polygon_components": 3,
+      "bbox_epsg4326": [
+        77.0839,
+        23.8706,
+        84.6345,
+        30.4064
+      ],
+      "intersection_area_km2": 12.116866128722517
+    },
+    {
+      "episode_id": 18,
+      "polygon_type": "Poly_Affected",
+      "geometry_valid": true,
+      "geometry_type": "MultiPolygon",
+      "polygon_components": 3,
+      "bbox_epsg4326": [
+        77.0839,
+        23.8706,
+        84.6345,
+        30.4064
+      ],
+      "intersection_area_km2": 12.116866128722517
+    },
+    {
+      "episode_id": 20,
+      "polygon_type": "Poly_Affected",
+      "geometry_valid": true,
+      "geometry_type": "Polygon",
+      "polygon_components": 1,
+      "bbox_epsg4326": [
+        83.3213,
+        24.2857,
+        88.2938,
+        27.5216
+      ],
+      "intersection_area_km2": 94055.93752084264
+    }
+  ],
+  "selected_candidate": {
+    "event_id": "1104121",
+    "episode_id": 20,
+    "polygon_type": "Poly_Affected",
+    "source_url": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104121&episodeid=20",
+    "semantics": "GDACS analyst-drawn affected area: areas reported affected, not the area actually under water (per official GDACS Flood impact page).",
+    "geometry_valid": true,
+    "geometry_type": "Polygon",
+    "polygon_components": 1,
+    "bbox_epsg4326": [
+      83.3213,
+      24.2857,
+      88.2938,
+      27.5216
+    ],
+    "bihar_intersection_area_km2_epsg32645": 94055.93752084264,
+    "bihar_area_fraction": 0.9985504937377773,
+    "reason_for_selection": "Episode 20 Poly_Affected is the valid GDACS analyst-reported affected-area polygon with a Bihar-wide footprint. GDACS documents this polygon type as areas reported affected by official sources or media, not areas actually under water. The result is therefore an affected-area proxy for impact assessment, not observed inundation. Episodes 12 and 18 also have valid Poly_Affected geometry but only a small western-edge overlap (~12.1169 km2 each); episode 20 is the distinct Bihar-wide area and is selected without treating Poly_Global or satellite products as substitutes.",
+    "not_an_observed_water_extent": true,
+    "final_clipped_area_km2_epsg32645": 94055.9375048339,
+    "containment_precision_inset_degrees": 1e-10
+  },
+  "reason_for_selection": "Episode 20 Poly_Affected is the valid GDACS analyst-reported affected-area polygon with a Bihar-wide footprint. GDACS documents this polygon type as areas reported affected by official sources or media, not areas actually under water. The result is therefore an affected-area proxy for impact assessment, not observed inundation. Episodes 12 and 18 also have valid Poly_Affected geometry but only a small western-edge overlap (~12.1169 km2 each); episode 20 is the distinct Bihar-wide area and is selected without treating Poly_Global or satellite products as substitutes.",
+  "rejected_candidates": [
+    {
+      "candidate": "Poly_Global across all episodes",
+      "reason": "Global/event-level extents are not a Bihar-specific affected or observed flood area; many are invalid. A positive overlay does not change that meaning, so no Poly_Global geometry was used."
+    },
+    {
+      "candidate": "Episode 12 and episode 18 Poly_Affected",
+      "reason": "Valid analyst-reported affected areas with only ~12.1169 km2 overlap each; broad multi-area geometry with a narrow Bihar edge overlap, not the Bihar-wide affected region represented by episode 20."
+    },
+    {
+      "candidate": "Episode 22 Poly_Affected and other disjoint episodes",
+      "reason": "No positive-area Bihar intersection; episode 22 is latest/cached but does not represent Bihar."
+    },
+    {
+      "candidate": "GFM Observed flood extent",
+      "reason": "161 event records, but event-wide extent is disjoint and Bihar envelope query returned 0 matches; no Bihar observed-flood extent."
+    },
+    {
+      "candidate": "NASA/MODIS optical flood product",
+      "reason": "GDACS date-templated KML requests returned HTML errors, not KML; no geometry could be measured."
+    },
+    {
+      "candidate": "Cached data/raw/gdacs/FL_1104121/observed_flood.geojson",
+      "reason": "It is the episode 22 polygon API FeatureCollection with Point_Centroid, Poly_Affected, and Poly_Global; despite its filename it is not the separate GFM Observed product."
+    }
+  ],
+  "observed_product_results": {
+    "gfm_observed": {
+      "product": "GDACS event-linked Global Flood Monitoring (GFM) Observed flood extent",
+      "gdacs_report_url": "https://www.gdacs.org/Floods/report.aspx?eventid=1104121&episodeid=20&eventtype=FL&detail=true",
+      "wms_layer_names": [
+        "gfm:observed_flood_extent_footprint",
+        "gfm:observed_flood_extent"
+      ],
+      "wms_endpoint": "https://geoserver.gfm.eodc.eu/geoserver/gfm/wms",
+      "gdacs_event_feature_service": "https://arcgis-maps.jrc.ec.europa.eu/federated_server/rest/services/ecml/gdacs_flood/MapServer/0",
+      "event_query_url": "https://arcgis-maps.jrc.ec.europa.eu/federated_server/rest/services/ecml/gdacs_flood/MapServer/0/query?where=eventid%3D1104121&outFields=OBJECTID%2Ceventid%2Ceventtype%2Creferencedateint%2Creferencename%2Clayertype%2Coverall&returnGeometry=false&f=json",
+      "event_feature_count": 161,
+      "event_feature_types": {
+        "Observed": 161
+      },
+      "event_extent_query_url": "https://arcgis-maps.jrc.ec.europa.eu/federated_server/rest/services/ecml/gdacs_flood/MapServer/0/query?where=eventid%3D1104121&returnExtentOnly=true&returnGeometry=false&f=json",
+      "event_extent_epsg4326": [
+        72.97123145800003,
+        25.354082291000054,
+        82.22117380800006,
+        32.94876900400004
+      ],
+      "bihar_envelope_spatial_query_url": "https://arcgis-maps.jrc.ec.europa.eu/federated_server/rest/services/ecml/gdacs_flood/MapServer/0/query?where=eventid%3D1104121&geometry=83.32023795297891%2C24.28618189657001%2C88.3005210359258%2C27.521631570162608&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&returnCountOnly=true&f=json",
+      "bihar_envelope_match_count": 0,
+      "positive_area_intersection_km2": 0.0,
+      "geometry_candidate_result": "No GFM observed flood features intersect the Bihar envelope; the event-wide observed-layer extent is disjoint from Bihar.",
+      "individual_geometry_metrics": "There are no Bihar-intersecting GFM geometries to measure: the service spatial query returned zero, and the event-wide envelope is disjoint."
+    },
+    "modis_optical": {
+      "product": "GDACS report-linked NASA/MODIS optical flood product",
+      "gdacs_report_url": "https://www.gdacs.org/Floods/report.aspx?eventid=1104121&episodeid=20&eventtype=FL&detail=true",
+      "url_template": "https://www.gdacs.org/contentdata/resources/FL/1104121/modis_flood_download_[yyyy][mm][dd].kml",
+      "dates_checked": [
+        "20260809",
+        "20260815",
+        "20260831",
+        "20260917",
+        "20260928",
+        "20261001",
+        "20261007"
+      ],
+      "result": "Templated URLs returned HTML error pages instead of KML for all tested dates; no event-linked geometry was available to validate or intersect.",
+      "geometry_available": false
+    },
+    "microwave_detection": {
+      "documentation": "GDACS describes a JRC/NASA TRMM/GPM microwave flood-detection product (5-10 km; cloud independent), but no separate event-linked microwave geometry was returned by the examined GDACS polygon endpoints.",
+      "geometry_available_for_intersection": false
+    }
+  },
+  "official_sources": {
+    "gdacs_api_quickstart": "https://www.gdacs.org/Documents/2025/GDACS_API_quickstart_v1.pdf",
+    "episode_22_details": "https://www.gdacs.org/gdacsapi/api/events/getepisodedata?eventtype=FL&eventid=1104121&episodeid=22",
+    "selected_episode_20_report": "https://www.gdacs.org/Floods/report.aspx?eventid=1104121&episodeid=20&eventtype=FL&detail=true",
+    "boundary_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IND/ADM1/geoBoundaries-IND-ADM1.geojson"
+  },
+  "validation": {
+    "valid": true,
+    "non_empty": true,
+    "intersects_bihar": true,
+    "inside_bihar": true,
+    "positive_area": true,
+    "area_calculated_in_projected_crs": true,
+    "no_poly_global_used": true,
+    "selected_episode_is_20": true,
+    "selected_polygon_type_is_poly_affected": true,
+    "feature_collection": true,
+    "crs_epsg4326": true,
+    "polygonal_geometry": true,
+    "file_exists": true,
+    "geometry_type": "MultiPolygon",
+    "polygon_component_count": 7,
+    "area_km2": 94055.9375048339,
+    "bihar_area_km2": 94192.47009610117,
+    "coverage_percent": 99.85504935678195,
+    "crs": "EPSG:4326"
+  },
+  "blocker": null,
+  "processing_timestamp_utc": "2026-10-16T11:45:05.537644+00:00",
+  "event_type": "FL",
+  "selected_episode": 20,
+  "selected_polygon_type": "Poly_Affected",
+  "not_observed_inundation": true,
+  "boundary": "Bihar",
+  "crs": "EPSG:4326",
+  "output_file": "bihar_flood_extent.geojson",
+  "area_km2": 94055.9375048339,
+  "bihar_area_km2": 94192.47009610117,
+  "coverage_percent": 99.85504935678195,
+  "polygon_component_count": 7,
+  "source_geometry": {
+    "endpoint": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104121&episodeid=20",
+    "event_id": 1104121,
+    "event_type": "FL",
+    "episode_id": 20,
+    "polygon_type": "Poly_Affected",
+    "geometry_type_before_repair": "Polygon",
+    "valid_before_repair": true,
+    "validity_reason_before_repair": "Valid Geometry",
+    "geometry_repaired": false,
+    "geometry_type_after_repair": "Polygon",
+    "polygon_component_count_before_clip": 1,
+    "source_polygonal_area_km2": 94157.71119505566,
+    "source_bbox_epsg4326": [
+      83.3213,
+      24.2857,
+      88.2938,
+      27.5216
+    ],
+    "source_non_polygonal_parts_excluded": []
+  },
+  "clipping": {
+    "operation": "Episode 20 Poly_Affected INTERSECTION Bihar boundary",
+    "raw_intersection_area_km2": 94055.93752084264,
+    "containment_precision_inset_degrees": 1e-10,
+    "non_polygonal_intersection_parts_excluded": [],
+    "poly_global_used": false
+  }
+}

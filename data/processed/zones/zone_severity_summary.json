@@ -1,0 +1,32 @@
+{
+  "event_id": 1104121,
+  "episode_id": 20,
+  "polygon_type": "Poly_Affected",
+  "disaster_id": 1,
+  "hazard_semantics": "GDACS reported affected area",
+  "not_observed_inundation": true,
+  "cell_count": 1072,
+  "score_range": {
+    "minimum": 7.4428124080167994e-06,
+    "maximum": 0.8827332523245985
+  },
+  "severity_counts": {
+    "Low": 128,
+    "Moderate": 92,
+    "High": 850,
+    "Critical": 2
+  },
+  "totals": {
+    "population": 127789039.64787817,
+    "population_valid_pixel_count": 4721961,
+    "building_count": 198182,
+    "building_footprint_area_km2": 20.437000117494776,
+    "affected_area_km2": 94055.93750483503,
+    "grid_area_km2": 94055.93750483489
+  },
+  "outputs": {
+    "grid": "disaster_grid.geojson",
+    "summary": "zone_severity_summary.json",
+    "metadata": "zone_generation_metadata.json"
+  }
+}

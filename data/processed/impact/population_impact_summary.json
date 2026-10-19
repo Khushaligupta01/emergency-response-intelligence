@@ -1,0 +1,25 @@
+{
+  "event_id": 1104121,
+  "episode_id": 20,
+  "polygon_type": "Poly_Affected",
+  "hazard_semantics": "GDACS reported affected area",
+  "not_observed_inundation": true,
+  "source_population": "WorldPop, University of Southampton",
+  "population_dataset": "2020 census/projection-based population estimates, constrained using BSGM outputs",
+  "year": 2020,
+  "units": "estimated number of people per pixel (grid-cell)",
+  "nodata": -99999.0,
+  "analysis_method": "Each raster pixel is counted at most once using a center-in-polygon mask (all_touched=False); native grid values are summed as estimated people per pixel without density conversion or resampling.",
+  "total_population": 127903134.74989772,
+  "affected_population": 127789039.64787817,
+  "affected_percent": 99.91079569531846,
+  "total_valid_pixels": 4730704,
+  "affected_pixels": 4721961,
+  "pixel_selection_rule": "A valid Bihar raster pixel is affected when its center lies within the selected GDACS reported affected-area polygon.",
+  "limitations": [
+    "GDACS geometry denotes an analyst-reported affected area, not observed inundation.",
+    "WorldPop values are modelled estimated people per pixel, not people per km\u00b2.",
+    "NoData cells represent areas modelled as unsettled and are excluded, not treated as zero.",
+    "Population estimates are modelled data, not individual counts."
+  ]
+}

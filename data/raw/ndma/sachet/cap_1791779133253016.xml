@@ -1,0 +1,37 @@
+<cap:alert xmlns:cap="urn:oasis:names:tc:emergency:cap:1.2">
+<cap:identifier>IN-1791779133253016_5</cap:identifier>
+<cap:sender>CWC</cap:sender>
+<cap:sent>2026-10-12T09:55:01+05:30</cap:sent>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:scope>Public</cap:scope>
+<cap:restriction/>
+<cap:addresses/>
+<cap:note/>
+<cap:incidents/>
+<cap:info>
+<cap:language>en-IN</cap:language>
+<cap:category>Met</cap:category>
+<cap:event>Flood</cap:event>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Severe</cap:severity>
+<cap:certainty>Possible</cap:certainty>
+<cap:audience>1</cap:audience>
+<cap:effective>2026-10-12T06:00:00+05:30</cap:effective>
+<cap:onset>2026-10-12T09:55:33+05:30</cap:onset>
+<cap:expires>2026-10-12T18:00:00+05:30</cap:expires>
+<cap:headline>River Bagmati at Benibad in Muzaffarpur district of Bihar continues to flow in severe flood situation at 6:00 am today.</cap:headline>
+<cap:description>River Bagmati at Benibad in Muzaffarpur district of Bihar continues to flow in severe flood situation at 6:00 am today. At 6:00 am, it was flowing at a level of 49.1 m with rising trend which is 0.42 m above its Danger Level of 48.68 m and 1.02 m below its previous HFL of 50.12 m (07/10/2025).</cap:description>
+<cap:instruction/>
+<cap:contact/>
+<cap:parameter>
+<cap:valueName>Polygon URL</cap:valueName>
+<cap:value>https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1791779133253016</cap:value>
+</cap:parameter>
+<cap:area>
+<cap:areaDesc>Bagmati, Benibad, Muzaffarpur, Bihar</cap:areaDesc>
+<cap:altitude>26.2</cap:altitude>
+<cap:ceiling>85.67</cap:ceiling>
+</cap:area>
+</cap:info>
+</cap:alert>

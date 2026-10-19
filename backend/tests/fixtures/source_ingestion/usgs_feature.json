@@ -1,0 +1,44 @@
+{
+  "fixture_source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+  "captured_at": "2026-10-18T17:59:18.429762+00:00",
+  "payload": {
+    "type": "Feature",
+    "properties": {
+      "mag": 2.02,
+      "place": "7 km SW of Volcano, Hawaii",
+      "time": 1792345594400,
+      "updated": 1792345811100,
+      "tz": null,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75060476",
+      "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv75060476.geojson",
+      "felt": null,
+      "cdi": null,
+      "mmi": null,
+      "alert": null,
+      "status": "automatic",
+      "tsunami": 0,
+      "sig": 63,
+      "net": "hv",
+      "code": "75060476",
+      "ids": ",hv75060476,",
+      "sources": ",hv,",
+      "types": ",origin,phase-data,",
+      "nst": 20,
+      "dmin": 0.008149,
+      "rms": 0.180000007,
+      "gap": 67,
+      "magType": "ml",
+      "type": "earthquake",
+      "title": "M 2.0 - 7 km SW of Volcano, Hawaii"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -155.289505004883,
+        19.3969993591309,
+        0.370000004768372
+      ]
+    },
+    "id": "hv75060476"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "event_id": "us6000u0hz",
+  "source": "USGS Earthquake Catalog",
+  "collection_type": "raw",
+  "event_detail_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u0hz&format=geojson",
+  "nearby_seismicity_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&latitude=30.1171&longitude=79.6148&maxradiuskm=250&starttime=2026-09-15&endtime=2026-10-14&minmagnitude=2&orderby=time",
+  "regional_catalog_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&minlatitude=6&maxlatitude=37&minlongitude=68&maxlongitude=98&starttime=2000-01-01&endtime=2026-10-14&minmagnitude=5&orderby=time",
+  "files": [
+    "event_detail.geojson",
+    "nearby_seismicity.geojson",
+    "regional_catalog.geojson",
+    "metadata.json"
+  ]
+}

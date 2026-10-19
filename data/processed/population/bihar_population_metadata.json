@@ -1,0 +1,74 @@
+{
+  "source": "WorldPop, University of Southampton",
+  "dataset_name": "2020 census/projection-based population estimates, constrained using BSGM outputs",
+  "source_url": "https://data.worldpop.org/GIS/Population/Global_2000_2020_Constrained/2020/BSGM/IND/ind_ppp_2020_constrained.tif",
+  "documentation_url": "https://hub.worldpop.org/geodata/summary?id=49804",
+  "dataset_doi": "10.5258/SOTON/WP00684",
+  "catalog_record_region": "India",
+  "catalog_product": "Constrained Individual countries 2020 (100m resolution)",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "year": 2020,
+  "population_reference_year": 2020,
+  "source_file_modified_at_utc": "2026-10-16T12:02:54.896077+00:00",
+  "source_file": "data\\external\\population\\worldpop\\ind_ppp_2020_constrained.tif",
+  "source_file_bytes": 531062384,
+  "source_file_sha256": "00756ec6d2b5b1107975e78b6de9f0159b81198b2b267e47dea5032ebdeffa03",
+  "crs": "EPSG:4326",
+  "resolution": {
+    "arc_seconds": [
+      2.9999999880256594,
+      2.9999999879989563
+    ],
+    "degrees": [
+      0.0008333333300071276,
+      0.0008333333299997101
+    ],
+    "approximate_metres_at_bihar_centre": {
+      "east_west": 83.49918857591976,
+      "north_south": 92.3221068779303
+    },
+    "source_description": "3 arc-seconds, approximately 100 m at the equator"
+  },
+  "units": "estimated number of people per pixel (grid-cell)",
+  "raster_value_meaning": "Each cell contains the estimated total number of people in that grid-cell; values are not people per km^2.",
+  "nodata": -99999.0,
+  "nodata_semantics": "WorldPop documents NoData as areas mapped as unsettled by its Built-Settlement Growth Model (BSGM).",
+  "dtype": "float32",
+  "bounds_epsg4326": [
+    83.31958301525944,
+    24.285416770533903,
+    88.30124966204205,
+    27.522083424252777
+  ],
+  "width": 5978,
+  "height": 3884,
+  "band_count": 1,
+  "valid_pixel_count": 4730704,
+  "population_min": 2.6534461975097656,
+  "population_max": 374.0674133300781,
+  "bihar_boundary_pixel_count": 12196812,
+  "valid_pixel_percent_of_boundary_pixels": 38.786397625871416,
+  "boundary_spatial_coverage": {
+    "source_raster_covers_bihar_boundary": true,
+    "output_bounds_cover_boundary_bbox": true,
+    "inside_boundary_mask_applied": true,
+    "valid_pixel_count": 4730704,
+    "pixel_coverage_note": "NoData cells are documented as unsettled areas, not missing values; the valid-pixel percentage is not a completeness or population-coverage estimate."
+  },
+  "processing_steps": [
+    "Download the actual India 2020 WorldPop constrained BSGM GeoTIFF.",
+    "Verify its CRS, resolution, dtype, NoData, and Bihar extent before processing.",
+    "Crop to the authoritative Bihar boundary bounding box without resampling.",
+    "Mask pixels whose centres fall outside the Bihar boundary to source NoData.",
+    "Preserve the native grid values, resolution, CRS, dtype, and NoData in a tiled compressed GeoTIFF.",
+    "Count valid cells and calculate min/max from the clipped pixel values."
+  ],
+  "output_file": "data\\processed\\population\\bihar_population.tif",
+  "limitations": [
+    "This is a modelled dasymetric gridded estimate derived from 2020 census/projection-based national inputs, not a census enumeration at each pixel.",
+    "Population values are estimated people per pixel, not people per square kilometre.",
+    "NoData cells denote locations modelled as unsettled; they must not be silently treated as zero population.",
+    "The grid is geographic WGS84, so physical cell dimensions vary with latitude."
+  ]
+}

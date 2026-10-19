@@ -1,0 +1,2 @@
+# Additional dependency for streaming the large Step 2D GeoJSON via Pyogrio Arrow.
+pyarrow==23.0.1

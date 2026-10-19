@@ -1,0 +1,53 @@
+{
+  "event": {
+    "event_id": 1104121,
+    "event_type": "FL",
+    "source": "GDACS"
+  },
+  "selected_episode": 20,
+  "selected_polygon_type": "Poly_Affected",
+  "source": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104121&episodeid=20",
+  "boundary": {
+    "name": "Bihar",
+    "source": "geoBoundaries gbOpen India ADM1",
+    "source_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IND/ADM1/geoBoundaries-IND-ADM1.geojson",
+    "crs": "EPSG:4326",
+    "area_km2": 94192.47009610117
+  },
+  "semantic_meaning": "GDACS analyst-reported affected area",
+  "not_observed_inundation": true,
+  "output_file": "bihar_flood_extent.geojson",
+  "crs": "EPSG:4326",
+  "area_km2": 94055.9375048339,
+  "bihar_area_km2": 94192.47009610117,
+  "coverage_percent": 99.85504935678195,
+  "geometry_type": "MultiPolygon",
+  "polygon_component_count": 7,
+  "validation": {
+    "valid": true,
+    "non_empty": true,
+    "intersects_bihar": true,
+    "inside_bihar": true,
+    "positive_area": true,
+    "area_calculated_in_projected_crs": true,
+    "no_poly_global_used": true,
+    "selected_episode_is_20": true,
+    "selected_polygon_type_is_poly_affected": true,
+    "feature_collection": true,
+    "crs_epsg4326": true,
+    "polygonal_geometry": true,
+    "file_exists": true,
+    "geometry_type": "MultiPolygon",
+    "polygon_component_count": 7,
+    "area_km2": 94055.9375048339,
+    "bihar_area_km2": 94192.47009610117,
+    "coverage_percent": 99.85504935678195,
+    "crs": "EPSG:4326"
+  },
+  "limitations": [
+    "This dataset represents a GDACS analyst-reported affected area and must not be interpreted as an observed satellite-derived inundation extent.",
+    "The GDACS analyst-reported area is not evidence that every location in the polygon was inundated.",
+    "The separate GDACS-linked GFM Observed product did not provide a usable Bihar observed-flood geometry.",
+    "The GDACS episode geometry was clipped with a 1e-10 degree inward boundary tolerance to ensure strict containment."
+  ]
+}

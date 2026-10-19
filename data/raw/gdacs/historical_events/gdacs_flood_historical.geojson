@@ -1,0 +1,5212 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "bbox": [-79.5542, -1.4941, -79.5542, -1.4941],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.5542, -1.4941]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104167,
+        "episodeid": 7,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Ecuador",
+        "description": "Flood in Ecuador",
+        "htmldescription": "Green Flood in Ecuador from: 15 Sep 2026 01 to: 14 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104167&episodeid=7",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104167&episodeid=7&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104167"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "true",
+        "country": "Ecuador",
+        "fromdate": "2026-09-15T01:00:00",
+        "todate": "2026-10-14T01:00:00",
+        "datemodified": "2026-10-14T06:43:39",
+        "iso3": "ECU",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "EC",
+            "iso3": "ECU",
+            "countryname": "Ecuador"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-73.1047, 7.167, -73.1047, 7.167],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.1047, 7.167]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104200,
+        "episodeid": 6,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Colombia",
+        "description": "Flood in Colombia",
+        "htmldescription": "Green Flood in Colombia from: 26 Sep 2026 01 to: 14 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104200&episodeid=6",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104200&episodeid=6&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104200"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "true",
+        "country": "Colombia",
+        "fromdate": "2026-09-26T01:00:00",
+        "todate": "2026-10-14T01:00:00",
+        "datemodified": "2026-10-14T06:43:04",
+        "iso3": "COL",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "CO",
+            "iso3": "COL",
+            "countryname": "Colombia"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-72.261, -38.6679, -72.261, -38.6679],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.261, -38.6679]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104217,
+        "episodeid": 2,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Chile",
+        "description": "Flood in Chile",
+        "htmldescription": "Green Flood in Chile from: 06 Oct 2026 01 to: 14 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104217&episodeid=2",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104217&episodeid=2&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104217"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "true",
+        "country": "Chile",
+        "fromdate": "2026-10-06T01:00:00",
+        "todate": "2026-10-14T01:00:00",
+        "datemodified": "2026-10-14T06:42:15",
+        "iso3": "CHL",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "CL",
+            "iso3": "CHL",
+            "countryname": "Chile"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-58.0173, -31.3973, -58.0173, -31.3973],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.0173, -31.3973]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104218,
+        "episodeid": 2,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Argentina",
+        "description": "Flood in Argentina",
+        "htmldescription": "Green Flood in Argentina from: 06 Oct 2026 01 to: 14 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104218&episodeid=2",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104218&episodeid=2&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104218"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "true",
+        "country": "Argentina",
+        "fromdate": "2026-10-06T01:00:00",
+        "todate": "2026-10-14T01:00:00",
+        "datemodified": "2026-10-14T08:40:47",
+        "iso3": "ARG",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "AR",
+            "iso3": "ARG",
+            "countryname": "Argentina"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [33.9686, 36.8328, 33.9686, 36.8328],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.9686, 36.8328]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104230,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Türkiye",
+        "description": "Flood in Türkiye",
+        "htmldescription": "Green Flood in Türkiye from: 12 Oct 2026 01 to: 14 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104230&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104230&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104230"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "true",
+        "country": "Türkiye",
+        "fromdate": "2026-10-12T01:00:00",
+        "todate": "2026-10-14T01:00:00",
+        "datemodified": "2026-10-14T08:42:33",
+        "iso3": "TUR",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "TR",
+            "iso3": "TUR",
+            "countryname": "Türkiye"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [98.6963, 3.5679, 98.6963, 3.5679],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [98.6963, 3.5679]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104224,
+        "episodeid": 4,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Indonesia",
+        "description": "Flood in Indonesia",
+        "htmldescription": "Green Flood in Indonesia from: 10 Oct 2026 01 to: 13 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104224&episodeid=4",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104224&episodeid=4&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104224"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "true",
+        "country": "Indonesia",
+        "fromdate": "2026-10-10T01:00:00",
+        "todate": "2026-10-13T01:00:00",
+        "datemodified": "2026-10-14T08:42:05",
+        "iso3": "IDN",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "ID",
+            "iso3": "IDN",
+            "countryname": "Indonesia"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [84.628, 27.995, 84.628, 27.995],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [84.628, 27.995]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104225,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Nepal",
+        "description": "Flood in Nepal",
+        "htmldescription": "Green Flood in Nepal from: 11 Oct 2026 01 to: 13 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104225&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104225&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104225"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "true",
+        "country": "Nepal",
+        "fromdate": "2026-10-11T01:00:00",
+        "todate": "2026-10-13T01:00:00",
+        "datemodified": "2026-10-12T05:56:06",
+        "iso3": "NPL",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "NP",
+            "iso3": "NPL",
+            "countryname": "Nepal"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-73.3711, 41.119, -73.3711, 41.119],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.3711, 41.119]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1103888,
+        "episodeid": 91,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in United States",
+        "description": "Flood in United States",
+        "htmldescription": "Green Flood in United States from: 19 May 2026 01 to: 13 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1103888&episodeid=91",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=91&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1103888"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "true",
+        "country": "United States",
+        "fromdate": "2026-05-19T01:00:00",
+        "todate": "2026-10-13T01:00:00",
+        "datemodified": "2026-10-14T08:25:26",
+        "iso3": "USA",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "US",
+            "iso3": "USA",
+            "countryname": "United States"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [16.621, 40.9843, 16.621, 40.9843],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.621, 40.9843]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104220,
+        "episodeid": 5,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Italy",
+        "description": "Flood in Italy",
+        "htmldescription": "Green Flood in Italy from: 07 Oct 2026 01 to: 12 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104220&episodeid=5",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=5&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104220"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "true",
+        "country": "Italy",
+        "fromdate": "2026-10-07T01:00:00",
+        "todate": "2026-10-12T01:00:00",
+        "datemodified": "2026-10-11T12:05:31",
+        "iso3": "ITA",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "IT",
+            "iso3": "ITA",
+            "countryname": "Italy"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-44.9642, -22.5784, -44.9642, -22.5784],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-44.9642, -22.5784]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104216,
+        "episodeid": 3,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Brazil",
+        "description": "Flood in Brazil",
+        "htmldescription": "Green Flood in Brazil from: 01 Oct 2026 01 to: 12 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104216&episodeid=3",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104216&episodeid=3&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104216"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "true",
+        "country": "Brazil",
+        "fromdate": "2026-10-01T01:00:00",
+        "todate": "2026-10-12T01:00:00",
+        "datemodified": "2026-10-13T05:55:48",
+        "iso3": "BRA",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "BR",
+            "iso3": "BRA",
+            "countryname": "Brazil"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-116.603, 31.8659, -116.603, 31.8659],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-116.603, 31.8659]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104099,
+        "episodeid": 26,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Mexico",
+        "description": "Flood in Mexico",
+        "htmldescription": "Green Flood in Mexico from: 17 Aug 2026 01 to: 12 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104099&episodeid=26",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104099&episodeid=26&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104099"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "true",
+        "country": "Mexico",
+        "fromdate": "2026-08-17T01:00:00",
+        "todate": "2026-10-12T01:00:00",
+        "datemodified": "2026-10-14T06:40:15",
+        "iso3": "MEX",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "MX",
+            "iso3": "MEX",
+            "countryname": "Mexico"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-54.8333, -25.5, -54.8333, -25.5],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-54.8333, -25.5]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104222,
+        "episodeid": 3,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Paraguay",
+        "description": "Flood in Paraguay",
+        "htmldescription": "Green Flood in Paraguay from: 06 Oct 2026 01 to: 11 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104222&episodeid=3",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104222&episodeid=3&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104222"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "true",
+        "country": "Paraguay",
+        "fromdate": "2026-10-06T01:00:00",
+        "todate": "2026-10-11T01:00:00",
+        "datemodified": "2026-10-11T06:57:24",
+        "iso3": "PRY",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "PY",
+            "iso3": "PRY",
+            "countryname": "Paraguay"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-83.9027, 9.8542, -83.9027, 9.8542],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.9027, 9.8542]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104227,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Costa Rica",
+        "description": "Flood in Costa Rica",
+        "htmldescription": "Green Flood in Costa Rica from: 09 Oct 2026 01 to: 11 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104227&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104227&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104227"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "true",
+        "country": "Costa Rica",
+        "fromdate": "2026-10-09T01:00:00",
+        "todate": "2026-10-11T01:00:00",
+        "datemodified": "2026-10-13T05:55:58",
+        "iso3": "CRI",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "CR",
+            "iso3": "CRI",
+            "countryname": "Costa Rica"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-79.1925, 8.1942, -79.1925, 8.1942],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.1925, 8.1942]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104228,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Panama",
+        "description": "Flood in Panama",
+        "htmldescription": "Green Flood in Panama from: 09 Oct 2026 01 to: 11 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104228&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104228&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104228"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "true",
+        "country": "Panama",
+        "fromdate": "2026-10-09T01:00:00",
+        "todate": "2026-10-11T01:00:00",
+        "datemodified": "2026-10-13T05:56:29",
+        "iso3": "PAN",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "PA",
+            "iso3": "PAN",
+            "countryname": "Panama"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [13.8443, 45.8238, 13.8443, 45.8238],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.8443, 45.8238]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104221,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Slovenia",
+        "description": "Flood in Slovenia",
+        "htmldescription": "Green Flood in Slovenia from: 08 Oct 2026 01 to: 10 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104221&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104221&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104221"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Slovenia",
+        "fromdate": "2026-10-08T01:00:00",
+        "todate": "2026-10-10T01:00:00",
+        "datemodified": "2026-10-10T07:26:12",
+        "iso3": "SVN",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "SI",
+            "iso3": "SVN",
+            "countryname": "Slovenia"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [109.6, 19.2, 109.6, 19.2],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.6, 19.2]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104223,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in China",
+        "description": "Flood in China",
+        "htmldescription": "Green Flood in China from: 07 Oct 2026 01 to: 10 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104223&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104223&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104223"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "China",
+        "fromdate": "2026-10-07T01:00:00",
+        "todate": "2026-10-10T01:00:00",
+        "datemodified": "2026-10-11T06:57:32",
+        "iso3": "CHN",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "CN",
+            "iso3": "CHN",
+            "countryname": "China"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-87.691, 14.5505, -87.691, 14.5505],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.691, 14.5505]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104209,
+        "episodeid": 2,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Honduras",
+        "description": "Flood in Honduras",
+        "htmldescription": "Green Flood in Honduras from: 02 Oct 2026 01 to: 10 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104209&episodeid=2",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104209&episodeid=2&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104209"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Honduras",
+        "fromdate": "2026-10-02T01:00:00",
+        "todate": "2026-10-10T01:00:00",
+        "datemodified": "2026-10-14T08:41:39",
+        "iso3": "HND",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "HN",
+            "iso3": "HND",
+            "countryname": "Honduras"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-66.3807, 10.2343, -66.3807, 10.2343],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-66.3807, 10.2343]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104219,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Venezuela",
+        "description": "Flood in Venezuela",
+        "htmldescription": "Green Flood in Venezuela from: 07 Oct 2026 01 to: 09 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104219&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104219&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104219"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Venezuela",
+        "fromdate": "2026-10-07T01:00:00",
+        "todate": "2026-10-09T01:00:00",
+        "datemodified": "2026-10-10T06:25:31",
+        "iso3": "VEN",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "VE",
+            "iso3": "VEN",
+            "countryname": "Venezuela"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-6.4739, 31.8788, -6.4739, 31.8788],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.4739, 31.8788]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104226,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Morocco",
+        "description": "Flood in Morocco",
+        "htmldescription": "Green Flood in Morocco from: 07 Oct 2026 01 to: 09 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104226&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104226&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104226"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Morocco",
+        "fromdate": "2026-10-07T01:00:00",
+        "todate": "2026-10-09T01:00:00",
+        "datemodified": "2026-10-12T11:16:50",
+        "iso3": "MAR",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "MA",
+            "iso3": "MAR",
+            "countryname": "Morocco"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [108.224, 16.0685, 108.224, 16.0685],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.224, 16.0685]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104141,
+        "episodeid": 12,
+        "eventname": "",
+        "glide": "FL-2026-000173-VNM",
+        "name": "Flood in Vietnam",
+        "description": "Flood in Vietnam",
+        "htmldescription": "Green Flood in Vietnam from: 03 Sep 2026 01 to: 09 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104141&episodeid=12",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104141&episodeid=12&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104141"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Vietnam",
+        "fromdate": "2026-09-03T01:00:00",
+        "todate": "2026-10-09T01:00:00",
+        "datemodified": "2026-10-12T05:56:30",
+        "iso3": "VNM",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "VN",
+            "iso3": "VNM",
+            "countryname": "Vietnam"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [4.2976, 43.96, 4.2976, 43.96],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.2976, 43.96]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104202,
+        "episodeid": 3,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in France",
+        "description": "Flood in France",
+        "htmldescription": "Green Flood in France from: 29 Sep 2026 01 to: 08 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104202&episodeid=3",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104202&episodeid=3&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104202"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "France",
+        "fromdate": "2026-09-29T01:00:00",
+        "todate": "2026-10-08T01:00:00",
+        "datemodified": "2026-10-07T10:43:17",
+        "iso3": "FRA",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "FR",
+            "iso3": "FRA",
+            "countryname": "France"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-3.7716, 40.5248, -3.7716, 40.5248],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7716, 40.5248]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104199,
+        "episodeid": 13,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Spain",
+        "description": "Flood in Spain",
+        "htmldescription": "Green Flood in Spain from: 28 Sep 2026 01 to: 08 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104199&episodeid=13",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104199&episodeid=13&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104199"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Spain",
+        "fromdate": "2026-09-28T01:00:00",
+        "todate": "2026-10-08T01:00:00",
+        "datemodified": "2026-10-07T10:45:49",
+        "iso3": "ESP",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "ES",
+            "iso3": "ESP",
+            "countryname": "Spain"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [7.2272, 8.8796, 7.2272, 8.8796],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.2272, 8.8796]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104186,
+        "episodeid": 8,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Nigeria",
+        "description": "Flood in Nigeria",
+        "htmldescription": "Green Flood in Nigeria from: 21 Sep 2026 01 to: 07 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104186&episodeid=8",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104186&episodeid=8&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104186"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Nigeria",
+        "fromdate": "2026-09-21T01:00:00",
+        "todate": "2026-10-07T01:00:00",
+        "datemodified": "2026-10-07T10:24:15",
+        "iso3": "NGA",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "NG",
+            "iso3": "NGA",
+            "countryname": "Nigeria"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [98.9954, 17.1054, 98.9954, 17.1054],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [98.9954, 17.1054]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104169,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Thailand",
+        "description": "Flood in Thailand",
+        "htmldescription": "Green Flood in Thailand from: 05 Oct 2026 01 to: 07 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104169&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104169&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104169"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Thailand",
+        "fromdate": "2026-10-05T01:00:00",
+        "todate": "2026-10-07T01:00:00",
+        "datemodified": "2026-09-18T06:16:34",
+        "iso3": "THA",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "TH",
+            "iso3": "THA",
+            "countryname": "Thailand"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-100, 17.6667, -100, 17.6667],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-100, 17.6667]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104191,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Mexico",
+        "description": "Flood in Mexico",
+        "htmldescription": "Green Flood in Mexico from: 05 Oct 2026 01 to: 07 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104191&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104191&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104191"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Mexico",
+        "fromdate": "2026-10-05T01:00:00",
+        "todate": "2026-10-07T01:00:00",
+        "datemodified": "2026-09-26T06:33:31",
+        "iso3": "MEX",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "MX",
+            "iso3": "MEX",
+            "countryname": "Mexico"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [78.6099, 11.3324, 78.6099, 11.3324],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.6099, 11.3324]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104121,
+        "episodeid": 22,
+        "eventname": "",
+        "glide": "FL-2026-000165-IND",
+        "name": "Flood in India",
+        "description": "Flood in India",
+        "htmldescription": "Orange Flood in India from: 09 Aug 2026 01 to: 07 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Orange/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104121&episodeid=22",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104121&episodeid=22&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104121"
+        },
+        "alertlevel": "Orange",
+        "alertscore": 2,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "India",
+        "fromdate": "2026-08-09T01:00:00",
+        "todate": "2026-10-07T01:00:00",
+        "datemodified": "2026-10-11T06:51:33",
+        "iso3": "IND",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "IN",
+            "iso3": "IND",
+            "countryname": "India"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-17.4315, 14.7607, -17.4315, 14.7607],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-17.4315, 14.7607]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104203,
+        "episodeid": 2,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Senegal",
+        "description": "Flood in Senegal",
+        "htmldescription": "Green Flood in Senegal from: 27 Sep 2026 01 to: 06 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104203&episodeid=2",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104203&episodeid=2&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104203"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Senegal",
+        "fromdate": "2026-09-27T01:00:00",
+        "todate": "2026-10-06T01:00:00",
+        "datemodified": "2026-10-09T15:50:16",
+        "iso3": "SEN",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "SN",
+            "iso3": "SEN",
+            "countryname": "Senegal"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-9.3595, 11.5496, -9.3595, 11.5496],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.3595, 11.5496]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104178,
+        "episodeid": 5,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Guinea",
+        "description": "Flood in Guinea",
+        "htmldescription": "Green Flood in Guinea from: 18 Sep 2026 01 to: 05 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104178&episodeid=5",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104178&episodeid=5&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104178"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Guinea",
+        "fromdate": "2026-09-18T01:00:00",
+        "todate": "2026-10-05T01:00:00",
+        "datemodified": "2026-10-05T08:55:34",
+        "iso3": "GIN",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "GN",
+            "iso3": "GIN",
+            "countryname": "Guinea"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-90.556, 14.4977, -90.556, 14.4977],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.556, 14.4977]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104213,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Guatemala",
+        "description": "Flood in Guatemala",
+        "htmldescription": "Green Flood in Guatemala from: 03 Oct 2026 01 to: 05 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104213&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104213&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104213"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Guatemala",
+        "fromdate": "2026-10-03T01:00:00",
+        "todate": "2026-10-05T01:00:00",
+        "datemodified": "2026-10-06T06:14:44",
+        "iso3": "GTM",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "GT",
+            "iso3": "GTM",
+            "countryname": "Guatemala"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-57.0868, -29.7561, -57.0868, -29.7561],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-57.0868, -29.7561]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104229,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Brazil",
+        "description": "Flood in Brazil",
+        "htmldescription": "Green Flood in Brazil from: 03 Oct 2026 01 to: 05 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104229&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104229&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104229"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Brazil",
+        "fromdate": "2026-10-03T01:00:00",
+        "todate": "2026-10-05T01:00:00",
+        "datemodified": "2026-10-14T07:08:46",
+        "iso3": "BRA",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "BR",
+            "iso3": "BRA",
+            "countryname": "Brazil"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [121.1763, 13.8114, 121.1763, 13.8114],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.1763, 13.8114]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104176,
+        "episodeid": 4,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Philippines",
+        "description": "Flood in Philippines",
+        "htmldescription": "Green Flood in Philippines from: 18 Sep 2026 01 to: 04 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104176&episodeid=4",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104176&episodeid=4&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104176"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Philippines",
+        "fromdate": "2026-09-18T01:00:00",
+        "todate": "2026-10-04T01:00:00",
+        "datemodified": "2026-10-05T05:54:55",
+        "iso3": "PHL",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "PH",
+            "iso3": "PHL",
+            "countryname": "Philippines"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-16.9205, 32.6519, -16.9205, 32.6519],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-16.9205, 32.6519]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104212,
+        "episodeid": 2,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Portugal",
+        "description": "Flood in Portugal",
+        "htmldescription": "Green Flood in Portugal from: 29 Sep 2026 01 to: 04 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104212&episodeid=2",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104212&episodeid=2&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104212"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Portugal",
+        "fromdate": "2026-09-29T01:00:00",
+        "todate": "2026-10-04T01:00:00",
+        "datemodified": "2026-10-06T10:53:58",
+        "iso3": "PRT",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "PT",
+            "iso3": "PRT",
+            "countryname": "Portugal"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-11.5239, 15.9298, -11.5239, 15.9298],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-11.5239, 15.9298]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104215,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Mauritania",
+        "description": "Flood in Mauritania",
+        "htmldescription": "Green Flood in Mauritania from: 03 Oct 2026 01 to: 04 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104215&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104215&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104215"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Mauritania",
+        "fromdate": "2026-10-03T01:00:00",
+        "todate": "2026-10-04T01:00:00",
+        "datemodified": "2026-10-08T09:54:57",
+        "iso3": "MRT",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "MR",
+            "iso3": "MRT",
+            "countryname": "Mauritania"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-85.9139, 13.3994, -85.9139, 13.3994],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-85.9139, 13.3994]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104210,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Nicaragua",
+        "description": "Flood in Nicaragua",
+        "htmldescription": "Green Flood in Nicaragua from: 02 Oct 2026 01 to: 04 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104210&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104210&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104210"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Nicaragua",
+        "fromdate": "2026-10-02T01:00:00",
+        "todate": "2026-10-04T01:00:00",
+        "datemodified": "2026-10-05T06:14:36",
+        "iso3": "NIC",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "NI",
+            "iso3": "NIC",
+            "countryname": "Nicaragua"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [116.0823, 5.9435, 116.0823, 5.9435],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.0823, 5.9435]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104207,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Malaysia",
+        "description": "Flood in Malaysia",
+        "htmldescription": "Green Flood in Malaysia from: 01 Oct 2026 01 to: 03 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104207&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104207&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104207"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Malaysia",
+        "fromdate": "2026-10-01T01:00:00",
+        "todate": "2026-10-03T01:00:00",
+        "datemodified": "2026-10-03T06:54:18",
+        "iso3": "MYS",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "MY",
+            "iso3": "MYS",
+            "countryname": "Malaysia"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [99.3558, 13.6318, 99.3558, 13.6318],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [99.3558, 13.6318]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104122,
+        "episodeid": 57,
+        "eventname": "",
+        "glide": "FL-2026-000158-THA",
+        "name": "Flood in Thailand",
+        "description": "Flood in Thailand",
+        "htmldescription": "Green Flood in Thailand from: 18 Aug 2026 01 to: 03 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104122&episodeid=57",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104122&episodeid=57&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104122"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Thailand",
+        "fromdate": "2026-08-18T01:00:00",
+        "todate": "2026-10-03T01:00:00",
+        "datemodified": "2026-10-04T07:24:31",
+        "iso3": "THA",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "TH",
+            "iso3": "THA",
+            "countryname": "Thailand"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-14.6007, 64.9068, -14.6007, 64.9068],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-14.6007, 64.9068]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104211,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Iceland",
+        "description": "Flood in Iceland",
+        "htmldescription": "Green Flood in Iceland from: 30 Sep 2026 01 to: 02 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104211&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104211&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104211"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Iceland",
+        "fromdate": "2026-09-30T01:00:00",
+        "todate": "2026-10-02T01:00:00",
+        "datemodified": "2026-10-05T06:53:24",
+        "iso3": "ISL",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "IS",
+            "iso3": "ISL",
+            "countryname": "Iceland"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [96.098, 21.8577, 96.098, 21.8577],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [96.098, 21.8577]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104011,
+        "episodeid": 28,
+        "eventname": "",
+        "glide": "FL-2026-000141-MMR",
+        "name": "Flood in Myanmar",
+        "description": "Flood in Myanmar",
+        "htmldescription": "Green Flood in Myanmar from: 04 Jul 2026 01 to: 02 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104011&episodeid=28",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104011&episodeid=28&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104011"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Myanmar",
+        "fromdate": "2026-07-04T01:00:00",
+        "todate": "2026-10-02T01:00:00",
+        "datemodified": "2026-10-03T06:54:27",
+        "iso3": "MMR",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "MM",
+            "iso3": "MMR",
+            "countryname": "Myanmar"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [15.0503, 12.1192, 15.0503, 12.1192],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.0503, 12.1192]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104205,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Chad",
+        "description": "Flood in Chad",
+        "htmldescription": "Green Flood in Chad from: 29 Sep 2026 01 to: 01 Oct 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104205&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104205&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104205"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Chad",
+        "fromdate": "2026-09-29T01:00:00",
+        "todate": "2026-10-01T01:00:00",
+        "datemodified": "2026-10-01T11:23:09",
+        "iso3": "TCD",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "TD",
+            "iso3": "TCD",
+            "countryname": "Chad"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [106.7229, 10.7567, 106.7229, 10.7567],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7229, 10.7567]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104214,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Vietnam",
+        "description": "Flood in Vietnam",
+        "htmldescription": "Green Flood in Vietnam from: 28 Sep 2026 01 to: 30 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104214&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104214&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104214"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Vietnam",
+        "fromdate": "2026-09-28T01:00:00",
+        "todate": "2026-09-30T01:00:00",
+        "datemodified": "2026-10-08T06:26:32",
+        "iso3": "VNM",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "VN",
+            "iso3": "VNM",
+            "countryname": "Vietnam"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [0.4777, 7.1532, 0.4777, 7.1532],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.4777, 7.1532]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104196,
+        "episodeid": 3,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Ghana",
+        "description": "Flood in Ghana",
+        "htmldescription": "Green Flood in Ghana from: 23 Sep 2026 01 to: 30 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104196&episodeid=3",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104196&episodeid=3&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104196"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Ghana",
+        "fromdate": "2026-09-23T01:00:00",
+        "todate": "2026-09-30T01:00:00",
+        "datemodified": "2026-10-01T06:53:34",
+        "iso3": "GHA",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "GH",
+            "iso3": "GHA",
+            "countryname": "Ghana"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [99.3812, 2.1924, 99.3812, 2.1924],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [99.3812, 2.1924]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104168,
+        "episodeid": 3,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Indonesia",
+        "description": "Flood in Indonesia",
+        "htmldescription": "Green Flood in Indonesia from: 16 Sep 2026 01 to: 30 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104168&episodeid=3",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104168&episodeid=3&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104168"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Indonesia",
+        "fromdate": "2026-09-16T01:00:00",
+        "todate": "2026-09-30T01:00:00",
+        "datemodified": "2026-10-14T08:36:17",
+        "iso3": "IDN",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "ID",
+            "iso3": "IDN",
+            "countryname": "Indonesia"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [104.8879, 12.6688, 104.8879, 12.6688],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.8879, 12.6688]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104132,
+        "episodeid": 10,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Cambodia",
+        "description": "Flood in Cambodia",
+        "htmldescription": "Green Flood in Cambodia from: 28 Aug 2026 01 to: 29 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104132&episodeid=10",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104132&episodeid=10&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104132"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Cambodia",
+        "fromdate": "2026-08-28T01:00:00",
+        "todate": "2026-09-29T01:00:00",
+        "datemodified": "2026-10-03T06:34:49",
+        "iso3": "KHM",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "KH",
+            "iso3": "KHM",
+            "countryname": "Cambodia"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [29.0509, 41.0707, 29.0509, 41.0707],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0509, 41.0707]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104183,
+        "episodeid": 3,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Türkiye",
+        "description": "Flood in Türkiye",
+        "htmldescription": "Green Flood in Türkiye from: 18 Sep 2026 01 to: 29 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104183&episodeid=3",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104183&episodeid=3&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104183"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Türkiye",
+        "fromdate": "2026-09-18T01:00:00",
+        "todate": "2026-09-29T01:00:00",
+        "datemodified": "2026-09-29T11:05:46",
+        "iso3": "TUR",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "TR",
+            "iso3": "TUR",
+            "countryname": "Türkiye"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-79.8869, -2.1901, -79.8869, -2.1901],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.8869, -2.1901]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104201,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Ecuador",
+        "description": "Flood in Ecuador",
+        "htmldescription": "Green Flood in Ecuador from: 27 Sep 2026 01 to: 29 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104201&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104201&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104201"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Ecuador",
+        "fromdate": "2026-09-27T01:00:00",
+        "todate": "2026-09-29T01:00:00",
+        "datemodified": "2026-09-30T05:34:23",
+        "iso3": "ECU",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "EC",
+            "iso3": "ECU",
+            "countryname": "Ecuador"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [55.1659, 37.2493, 55.1659, 37.2493],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [55.1659, 37.2493]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104206,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Islamic Republic of Iran",
+        "description": "Flood in Islamic Republic of Iran",
+        "htmldescription": "Green Flood in Islamic Republic of Iran from: 27 Sep 2026 01 to: 29 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104206&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104206&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104206"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Islamic Republic of Iran",
+        "fromdate": "2026-09-27T01:00:00",
+        "todate": "2026-09-29T01:00:00",
+        "datemodified": "2026-10-02T06:25:28",
+        "iso3": "IRN",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "IR",
+            "iso3": "IRN",
+            "countryname": "Islamic Republic of Iran"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-82.6258, 8.7376, -82.6258, 8.7376],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.6258, 8.7376]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104204,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Panama",
+        "description": "Flood in Panama",
+        "htmldescription": "Green Flood in Panama from: 26 Sep 2026 01 to: 28 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104204&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104204&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104204"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Panama",
+        "fromdate": "2026-09-26T01:00:00",
+        "todate": "2026-09-28T01:00:00",
+        "datemodified": "2026-10-01T09:52:43",
+        "iso3": "PAN",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "PA",
+            "iso3": "PAN",
+            "countryname": "Panama"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [5.3374, 22.841, 5.3374, 22.841],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.3374, 22.841]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104179,
+        "episodeid": 3,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Algeria",
+        "description": "Flood in Algeria",
+        "htmldescription": "Green Flood in Algeria from: 18 Sep 2026 01 to: 28 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104179&episodeid=3",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104179&episodeid=3&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104179"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Algeria",
+        "fromdate": "2026-09-18T01:00:00",
+        "todate": "2026-09-28T01:00:00",
+        "datemodified": "2026-10-07T05:25:12",
+        "iso3": "DZA",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "DZ",
+            "iso3": "DZA",
+            "countryname": "Algeria"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [22.3972, -7.1965, 22.3972, -7.1965],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.3972, -7.1965]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104166,
+        "episodeid": 3,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Democratic Republic of Congo",
+        "description": "Flood in Democratic Republic of Congo",
+        "htmldescription": "Green Flood in Democratic Republic of Congo from: 15 Sep 2026 01 to: 28 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104166&episodeid=3",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104166&episodeid=3&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104166"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Democratic Republic of Congo",
+        "fromdate": "2026-09-15T01:00:00",
+        "todate": "2026-09-28T01:00:00",
+        "datemodified": "2026-10-01T06:32:55",
+        "iso3": "COD",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "CD",
+            "iso3": "COD",
+            "countryname": "Democratic Republic of Congo"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-83.8669, 10.068, -83.8669, 10.068],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.8669, 10.068]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104197,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Costa Rica",
+        "description": "Flood in Costa Rica",
+        "htmldescription": "Green Flood in Costa Rica from: 25 Sep 2026 01 to: 27 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104197&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104197&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104197"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Costa Rica",
+        "fromdate": "2026-09-25T01:00:00",
+        "todate": "2026-09-27T01:00:00",
+        "datemodified": "2026-09-28T06:04:42",
+        "iso3": "CRI",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "CR",
+            "iso3": "CRI",
+            "countryname": "Costa Rica"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [14.9462, 37.8779, 14.9462, 37.8779],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.9462, 37.8779]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104053,
+        "episodeid": 26,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Italy",
+        "description": "Flood in Italy",
+        "htmldescription": "Green Flood in Italy from: 26 Jul 2026 01 to: 27 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104053&episodeid=26",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104053&episodeid=26&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104053"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Italy",
+        "fromdate": "2026-07-26T01:00:00",
+        "todate": "2026-09-27T01:00:00",
+        "datemodified": "2026-10-14T08:29:17",
+        "iso3": "ITA",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "IT",
+            "iso3": "ITA",
+            "countryname": "Italy"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [108.4812, 31.2958, 108.4812, 31.2958],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.4812, 31.2958]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104081,
+        "episodeid": 20,
+        "eventname": "",
+        "glide": "FL-2026-000148-CHN",
+        "name": "Flood in China",
+        "description": "Flood in China",
+        "htmldescription": "Orange Flood in China from: 31 Jul 2026 01 to: 27 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Orange/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104081&episodeid=20",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104081&episodeid=20&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104081"
+        },
+        "alertlevel": "Orange",
+        "alertscore": 2,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "China",
+        "fromdate": "2026-07-31T01:00:00",
+        "todate": "2026-09-27T01:00:00",
+        "datemodified": "2026-09-28T10:54:18",
+        "iso3": "CHN",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "CN",
+            "iso3": "CHN",
+            "countryname": "China"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-73.1054, -42.3008, -73.1054, -42.3008],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.1054, -42.3008]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104190,
+        "episodeid": 4,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Chile",
+        "description": "Flood in Chile",
+        "htmldescription": "Green Flood in Chile from: 23 Sep 2026 01 to: 26 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104190&episodeid=4",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104190&episodeid=4&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104190"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Chile",
+        "fromdate": "2026-09-23T01:00:00",
+        "todate": "2026-09-26T01:00:00",
+        "datemodified": "2026-09-27T06:32:46",
+        "iso3": "CHL",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "CL",
+            "iso3": "CHL",
+            "countryname": "Chile"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [98.3438, 8.8707, 98.3438, 8.8707],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [98.3438, 8.8707]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104208,
+        "episodeid": 2,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Thailand",
+        "description": "Flood in Thailand",
+        "htmldescription": "Green Flood in Thailand from: 18 Sep 2026 01 to: 26 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104208&episodeid=2",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104208&episodeid=2&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104208"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Thailand",
+        "fromdate": "2026-09-18T01:00:00",
+        "todate": "2026-09-26T01:00:00",
+        "datemodified": "2026-10-12T05:47:31",
+        "iso3": "THA",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "TH",
+            "iso3": "THA",
+            "countryname": "Thailand"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [83.5973, 28.2657, 83.5973, 28.2657],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [83.5973, 28.2657]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104198,
+        "episodeid": 3,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in India, Nepal",
+        "description": "Flood in India, Nepal",
+        "htmldescription": "Green Flood in India, Nepal from: 24 Sep 2026 01 to: 26 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104198&episodeid=3",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104198&episodeid=3&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104198"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "India, Nepal",
+        "fromdate": "2026-09-24T01:00:00",
+        "todate": "2026-09-26T01:00:00",
+        "datemodified": "2026-10-02T06:24:41",
+        "iso3": "IND",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "IN",
+            "iso3": "IND",
+            "countryname": "India"
+          },
+          {
+            "iso2": "NP",
+            "iso3": "NPL",
+            "countryname": "Nepal"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-71.3101, -41.1335, -71.3101, -41.1335],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.3101, -41.1335]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104192,
+        "episodeid": 2,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Argentina",
+        "description": "Flood in Argentina",
+        "htmldescription": "Green Flood in Argentina from: 23 Sep 2026 01 to: 25 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104192&episodeid=2",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104192&episodeid=2&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104192"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Argentina",
+        "fromdate": "2026-09-23T01:00:00",
+        "todate": "2026-09-25T01:00:00",
+        "datemodified": "2026-09-26T06:33:53",
+        "iso3": "ARG",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "AR",
+            "iso3": "ARG",
+            "countryname": "Argentina"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [35.3827, 46.8467, 35.3827, 46.8467],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.3827, 46.8467]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104193,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Ukraine",
+        "description": "Flood in Ukraine",
+        "htmldescription": "Green Flood in Ukraine from: 23 Sep 2026 01 to: 25 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104193&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104193&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104193"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Ukraine",
+        "fromdate": "2026-09-23T01:00:00",
+        "todate": "2026-09-25T01:00:00",
+        "datemodified": "2026-09-26T07:13:07",
+        "iso3": "UKR",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "UA",
+            "iso3": "UKR",
+            "countryname": "Ukraine"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [16.743, 28.0056, 16.743, 28.0056],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.743, 28.0056]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104195,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Libya",
+        "description": "Flood in Libya",
+        "htmldescription": "Green Flood in Libya from: 23 Sep 2026 01 to: 25 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104195&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104195&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104195"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Libya",
+        "fromdate": "2026-09-23T01:00:00",
+        "todate": "2026-09-25T01:00:00",
+        "datemodified": "2026-09-26T07:14:08",
+        "iso3": "LBY",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "LY",
+            "iso3": "LBY",
+            "countryname": "Libya"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-51.8908, -28.8472, -51.8908, -28.8472],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.8908, -28.8472]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104187,
+        "episodeid": 2,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Brazil",
+        "description": "Flood in Brazil",
+        "htmldescription": "Green Flood in Brazil from: 20 Sep 2026 01 to: 23 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104187&episodeid=2",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104187&episodeid=2&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104187"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Brazil",
+        "fromdate": "2026-09-20T01:00:00",
+        "todate": "2026-09-23T01:00:00",
+        "datemodified": "2026-09-23T13:03:44",
+        "iso3": "BRA",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "BR",
+            "iso3": "BRA",
+            "countryname": "Brazil"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-90.5614, 14.5565, -90.5614, 14.5565],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.5614, 14.5565]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104188,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Guatemala",
+        "description": "Flood in Guatemala",
+        "htmldescription": "Green Flood in Guatemala from: 21 Sep 2026 01 to: 23 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104188&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104188&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104188"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Guatemala",
+        "fromdate": "2026-09-21T01:00:00",
+        "todate": "2026-09-23T01:00:00",
+        "datemodified": "2026-09-23T13:04:23",
+        "iso3": "GTM",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "GT",
+            "iso3": "GTM",
+            "countryname": "Guatemala"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [140.1246, 35.609, 140.1246, 35.609],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.1246, 35.609]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104182,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Japan",
+        "description": "Flood in Japan",
+        "htmldescription": "Green Flood in Japan from: 20 Sep 2026 01 to: 22 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104182&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104182&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104182"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Japan",
+        "fromdate": "2026-09-20T01:00:00",
+        "todate": "2026-09-22T01:00:00",
+        "datemodified": "2026-09-22T06:28:50",
+        "iso3": "JPN",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "JP",
+            "iso3": "JPN",
+            "countryname": "Japan"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [101.7865, 4.9002, 101.7865, 4.9002],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.7865, 4.9002]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104184,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Malaysia",
+        "description": "Flood in Malaysia",
+        "htmldescription": "Green Flood in Malaysia from: 20 Sep 2026 01 to: 22 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104184&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104184&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104184"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Malaysia",
+        "fromdate": "2026-09-20T01:00:00",
+        "todate": "2026-09-22T01:00:00",
+        "datemodified": "2026-09-22T07:36:40",
+        "iso3": "MYS",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "MY",
+            "iso3": "MYS",
+            "countryname": "Malaysia"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [30.0048, 0.131, 30.0048, 0.131],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.0048, 0.131]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104185,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Uganda",
+        "description": "Flood in Uganda",
+        "htmldescription": "Green Flood in Uganda from: 20 Sep 2026 01 to: 22 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104185&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104185&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104185"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Uganda",
+        "fromdate": "2026-09-20T01:00:00",
+        "todate": "2026-09-22T01:00:00",
+        "datemodified": "2026-09-22T11:03:10",
+        "iso3": "UGA",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "UG",
+            "iso3": "UGA",
+            "countryname": "Uganda"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-89.8298, 13.5898, -89.8298, 13.5898],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-89.8298, 13.5898]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104189,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in El Salvador",
+        "description": "Flood in El Salvador",
+        "htmldescription": "Green Flood in El Salvador from: 20 Sep 2026 01 to: 22 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104189&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104189&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104189"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "El Salvador",
+        "fromdate": "2026-09-20T01:00:00",
+        "todate": "2026-09-22T01:00:00",
+        "datemodified": "2026-09-23T13:04:30",
+        "iso3": "SLV",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "SV",
+            "iso3": "SLV",
+            "countryname": "El Salvador"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-6.4797, 7.3793, -6.4797, 7.3793],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.4797, 7.3793]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104194,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Cote d'Ivoire",
+        "description": "Flood in Cote d'Ivoire",
+        "htmldescription": "Green Flood in Cote d'Ivoire from: 20 Sep 2026 01 to: 22 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104194&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104194&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104194"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Cote d'Ivoire",
+        "fromdate": "2026-09-20T01:00:00",
+        "todate": "2026-09-22T01:00:00",
+        "datemodified": "2026-09-26T07:13:49",
+        "iso3": "CIV",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "CI",
+            "iso3": "CIV",
+            "countryname": "Cote d'Ivoire"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-87.7673, 14.7875, -87.7673, 14.7875],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.7673, 14.7875]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104173,
+        "episodeid": 4,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Honduras",
+        "description": "Flood in Honduras",
+        "htmldescription": "Green Flood in Honduras from: 15 Sep 2026 01 to: 22 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104173&episodeid=4",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104173&episodeid=4&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104173"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Honduras",
+        "fromdate": "2026-09-15T01:00:00",
+        "todate": "2026-09-22T01:00:00",
+        "datemodified": "2026-09-23T13:04:13",
+        "iso3": "HND",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "HN",
+            "iso3": "HND",
+            "countryname": "Honduras"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [33.5927, 34.9496, 33.5927, 34.9496],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.5927, 34.9496]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104175,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Cyprus",
+        "description": "Flood in Cyprus",
+        "htmldescription": "Green Flood in Cyprus from: 18 Sep 2026 01 to: 20 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104175&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104175&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104175"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Cyprus",
+        "fromdate": "2026-09-18T01:00:00",
+        "todate": "2026-09-20T01:00:00",
+        "datemodified": "2026-09-20T07:18:06",
+        "iso3": "CYP",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "CY",
+            "iso3": "CYP",
+            "countryname": "Cyprus"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-74.4662, -12.9155, -74.4662, -12.9155],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.4662, -12.9155]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104145,
+        "episodeid": 4,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Peru",
+        "description": "Flood in Peru",
+        "htmldescription": "Green Flood in Peru from: 05 Sep 2026 01 to: 20 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104145&episodeid=4",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104145&episodeid=4&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104145"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Peru",
+        "fromdate": "2026-09-05T01:00:00",
+        "todate": "2026-09-20T01:00:00",
+        "datemodified": "2026-09-23T12:42:18",
+        "iso3": "PER",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "PE",
+            "iso3": "PER",
+            "countryname": "Peru"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-0.9875, 37.6155, -0.9875, 37.6155],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.9875, 37.6155]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104151,
+        "episodeid": 5,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Spain",
+        "description": "Flood in Spain",
+        "htmldescription": "Green Flood in Spain from: 09 Sep 2026 01 to: 19 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104151&episodeid=5",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104151&episodeid=5&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104151"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Spain",
+        "fromdate": "2026-09-09T01:00:00",
+        "todate": "2026-09-19T01:00:00",
+        "datemodified": "2026-09-18T11:46:15",
+        "iso3": "ESP",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "ES",
+            "iso3": "ESP",
+            "countryname": "Spain"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [102.8863, 13.7989, 102.8863, 13.7989],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [102.8863, 13.7989]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104174,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Cambodia",
+        "description": "Flood in Cambodia",
+        "htmldescription": "Green Flood in Cambodia from: 17 Sep 2026 01 to: 19 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104174&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104174&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104174"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Cambodia",
+        "fromdate": "2026-09-17T01:00:00",
+        "todate": "2026-09-19T01:00:00",
+        "datemodified": "2026-09-20T07:17:24",
+        "iso3": "KHM",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "KH",
+            "iso3": "KHM",
+            "countryname": "Cambodia"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [30.8076, -29.8435, 30.8076, -29.8435],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.8076, -29.8435]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104177,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in South Africa",
+        "description": "Flood in South Africa",
+        "htmldescription": "Green Flood in South Africa from: 17 Sep 2026 01 to: 19 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104177&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104177&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104177"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "South Africa",
+        "fromdate": "2026-09-17T01:00:00",
+        "todate": "2026-09-19T01:00:00",
+        "datemodified": "2026-09-20T07:39:43",
+        "iso3": "ZAF",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "ZA",
+            "iso3": "ZAF",
+            "countryname": "South Africa"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [9.0563, 35.6514, 9.0563, 35.6514],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.0563, 35.6514]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104180,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Tunisia",
+        "description": "Flood in Tunisia",
+        "htmldescription": "Green Flood in Tunisia from: 17 Sep 2026 01 to: 19 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104180&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104180&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104180"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Tunisia",
+        "fromdate": "2026-09-17T01:00:00",
+        "todate": "2026-09-19T01:00:00",
+        "datemodified": "2026-09-21T12:11:46",
+        "iso3": "TUN",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "TN",
+            "iso3": "TUN",
+            "countryname": "Tunisia"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-6.8663, 11.5297, -6.8663, 11.5297],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.8663, 11.5297]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104181,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Mali",
+        "description": "Flood in Mali",
+        "htmldescription": "Green Flood in Mali from: 17 Sep 2026 01 to: 19 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104181&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104181&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104181"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Mali",
+        "fromdate": "2026-09-17T01:00:00",
+        "todate": "2026-09-19T01:00:00",
+        "datemodified": "2026-09-21T12:41:47",
+        "iso3": "MLI",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "ML",
+            "iso3": "MLI",
+            "countryname": "Mali"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [15.8985, 43.7412, 15.8985, 43.7412],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.8985, 43.7412]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104153,
+        "episodeid": 2,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Croatia",
+        "description": "Flood in Croatia",
+        "htmldescription": "Green Flood in Croatia from: 11 Sep 2026 01 to: 19 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104153&episodeid=2",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104153&episodeid=2&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104153"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Croatia",
+        "fromdate": "2026-09-11T01:00:00",
+        "todate": "2026-09-19T01:00:00",
+        "datemodified": "2026-09-19T07:46:21",
+        "iso3": "HRV",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "HR",
+            "iso3": "HRV",
+            "countryname": "Croatia"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [45.3012, 2.0268, 45.3012, 2.0268],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [45.3012, 2.0268]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104170,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Somalia",
+        "description": "Flood in Somalia",
+        "htmldescription": "Green Flood in Somalia from: 16 Sep 2026 01 to: 18 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104170&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104170&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104170"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Somalia",
+        "fromdate": "2026-09-16T01:00:00",
+        "todate": "2026-09-18T01:00:00",
+        "datemodified": "2026-09-18T11:46:23",
+        "iso3": "SOM",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "SO",
+            "iso3": "SOM",
+            "countryname": "Somalia"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [88.1808, 27.4185, 88.1808, 27.4185],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.1808, 27.4185]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104154,
+        "episodeid": 2,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in India",
+        "description": "Flood in India",
+        "htmldescription": "Green Flood in India from: 12 Sep 2026 01 to: 16 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104154&episodeid=2",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104154&episodeid=2&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104154"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "India",
+        "fromdate": "2026-09-12T01:00:00",
+        "todate": "2026-09-16T01:00:00",
+        "datemodified": "2026-10-14T08:26:01",
+        "iso3": "IND",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "IN",
+            "iso3": "IND",
+            "countryname": "India"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [80.6401, 7.2143, 80.6401, 7.2143],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.6401, 7.2143]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104160,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Sri Lanka",
+        "description": "Flood in Sri Lanka",
+        "htmldescription": "Green Flood in Sri Lanka from: 14 Sep 2026 01 to: 16 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104160&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104160&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104160"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Sri Lanka",
+        "fromdate": "2026-09-14T01:00:00",
+        "todate": "2026-09-16T01:00:00",
+        "datemodified": "2026-09-16T05:56:43",
+        "iso3": "LKA",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "LK",
+            "iso3": "LKA",
+            "countryname": "Sri Lanka"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-17.4681, 14.7604, -17.4681, 14.7604],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-17.4681, 14.7604]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104161,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Senegal",
+        "description": "Flood in Senegal",
+        "htmldescription": "Green Flood in Senegal from: 15 Sep 2026 01 to: 16 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104161&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104161&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104161"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Senegal",
+        "fromdate": "2026-09-15T01:00:00",
+        "todate": "2026-09-16T01:00:00",
+        "datemodified": "2026-09-16T08:04:47",
+        "iso3": "SEN",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "SN",
+            "iso3": "SEN",
+            "countryname": "Senegal"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [82.1688, 28.8698, 82.1688, 28.8698],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [82.1688, 28.8698]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104157,
+        "episodeid": 2,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Nepal",
+        "description": "Flood in Nepal",
+        "htmldescription": "Green Flood in Nepal from: 12 Sep 2026 01 to: 15 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104157&episodeid=2",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104157&episodeid=2&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104157"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Nepal",
+        "fromdate": "2026-09-12T01:00:00",
+        "todate": "2026-09-15T01:00:00",
+        "datemodified": "2026-09-16T05:56:34",
+        "iso3": "NPL",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "NP",
+            "iso3": "NPL",
+            "countryname": "Nepal"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [39.6643, -4.0346, 39.6643, -4.0346],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.6643, -4.0346]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104159,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Kenya",
+        "description": "Flood in Kenya",
+        "htmldescription": "Green Flood in Kenya from: 12 Sep 2026 01 to: 14 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104159&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104159&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104159"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Kenya",
+        "fromdate": "2026-09-12T01:00:00",
+        "todate": "2026-09-14T01:00:00",
+        "datemodified": "2026-09-15T10:43:12",
+        "iso3": "KEN",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "KE",
+            "iso3": "KEN",
+            "countryname": "Kenya"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [20.0821, 41.1127, 20.0821, 41.1127],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.0821, 41.1127]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104164,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Albania",
+        "description": "Flood in Albania",
+        "htmldescription": "Green Flood in Albania from: 12 Sep 2026 01 to: 14 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104164&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104164&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104164"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Albania",
+        "fromdate": "2026-09-12T01:00:00",
+        "todate": "2026-09-14T01:00:00",
+        "datemodified": "2026-09-17T06:24:58",
+        "iso3": "ALB",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "AL",
+            "iso3": "ALB",
+            "countryname": "Albania"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [73.0955, -0.6127, 73.0955, -0.6127],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0955, -0.6127]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104155,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Maldives",
+        "description": "Flood in Maldives",
+        "htmldescription": "Green Flood in Maldives from: 11 Sep 2026 01 to: 13 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104155&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104155&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104155"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Maldives",
+        "fromdate": "2026-09-11T01:00:00",
+        "todate": "2026-09-13T01:00:00",
+        "datemodified": "2026-09-14T06:58:22",
+        "iso3": "MDV",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "MV",
+            "iso3": "MDV",
+            "countryname": "Maldives"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [13.8372, 45.5282, 13.8372, 45.5282],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.8372, 45.5282]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104152,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Slovenia",
+        "description": "Flood in Slovenia",
+        "htmldescription": "Green Flood in Slovenia from: 10 Sep 2026 01 to: 12 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104152&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104152&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104152"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Slovenia",
+        "fromdate": "2026-09-10T01:00:00",
+        "todate": "2026-09-12T01:00:00",
+        "datemodified": "2026-09-12T06:26:17",
+        "iso3": "SVN",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "SI",
+            "iso3": "SVN",
+            "countryname": "Slovenia"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [88.9764, 23.9479, 88.9764, 23.9479],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.9764, 23.9479]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104156,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Bangladesh",
+        "description": "Flood in Bangladesh",
+        "htmldescription": "Green Flood in Bangladesh from: 10 Sep 2026 01 to: 12 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104156&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104156&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104156"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Bangladesh",
+        "fromdate": "2026-09-10T01:00:00",
+        "todate": "2026-09-12T01:00:00",
+        "datemodified": "2026-09-14T06:59:11",
+        "iso3": "BGD",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "BD",
+            "iso3": "BGD",
+            "countryname": "Bangladesh"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [9.7227, 4.0565, 9.7227, 4.0565],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.7227, 4.0565]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104165,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Cameroon",
+        "description": "Flood in Cameroon",
+        "htmldescription": "Green Flood in Cameroon from: 10 Sep 2026 01 to: 12 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104165&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104165&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104165"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Cameroon",
+        "fromdate": "2026-09-10T01:00:00",
+        "todate": "2026-09-12T01:00:00",
+        "datemodified": "2026-09-17T10:14:53",
+        "iso3": "CMR",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "CM",
+            "iso3": "CMR",
+            "countryname": "Cameroon"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-47.3122, -22.945, -47.3122, -22.945],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-47.3122, -22.945]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104148,
+        "episodeid": 3,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Brazil",
+        "description": "Flood in Brazil",
+        "htmldescription": "Green Flood in Brazil from: 02 Sep 2026 01 to: 12 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104148&episodeid=3",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104148&episodeid=3&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104148"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Brazil",
+        "fromdate": "2026-09-02T01:00:00",
+        "todate": "2026-09-12T01:00:00",
+        "datemodified": "2026-09-14T05:14:21",
+        "iso3": "BRA",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "BR",
+            "iso3": "BRA",
+            "countryname": "Brazil"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-0.2012, 5.5571, -0.2012, 5.5571],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.2012, 5.5571]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104158,
+        "episodeid": 2,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Ghana",
+        "description": "Flood in Ghana",
+        "htmldescription": "Green Flood in Ghana from: 08 Sep 2026 01 to: 11 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104158&episodeid=2",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104158&episodeid=2&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104158"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Ghana",
+        "fromdate": "2026-09-08T01:00:00",
+        "todate": "2026-09-11T01:00:00",
+        "datemodified": "2026-09-15T10:22:55",
+        "iso3": "GHA",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "GH",
+            "iso3": "GHA",
+            "countryname": "Ghana"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [6.8115, 44.7625, 6.8115, 44.7625],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.8115, 44.7625]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104149,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in France",
+        "description": "Flood in France",
+        "htmldescription": "Green Flood in France from: 09 Sep 2026 01 to: 11 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104149&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104149&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104149"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "France",
+        "fromdate": "2026-09-09T01:00:00",
+        "todate": "2026-09-11T01:00:00",
+        "datemodified": "2026-09-11T08:46:48",
+        "iso3": "FRA",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "FR",
+            "iso3": "FRA",
+            "countryname": "France"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [141.1835, 41.2928, 141.1835, 41.2928],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.1835, 41.2928]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104140,
+        "episodeid": 5,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Japan",
+        "description": "Flood in Japan",
+        "htmldescription": "Green Flood in Japan from: 02 Sep 2026 01 to: 11 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104140&episodeid=5",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104140&episodeid=5&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104140"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Japan",
+        "fromdate": "2026-09-02T01:00:00",
+        "todate": "2026-09-11T01:00:00",
+        "datemodified": "2026-10-10T22:01:34",
+        "iso3": "JPN",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "JP",
+            "iso3": "JPN",
+            "countryname": "Japan"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [7.0859, 8.936, 7.0859, 8.936],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.0859, 8.936]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104105,
+        "episodeid": 8,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Nigeria",
+        "description": "Flood in Nigeria",
+        "htmldescription": "Green Flood in Nigeria from: 13 Aug 2026 01 to: 11 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104105&episodeid=8",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104105&episodeid=8&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104105"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Nigeria",
+        "fromdate": "2026-08-13T01:00:00",
+        "todate": "2026-09-11T01:00:00",
+        "datemodified": "2026-09-12T06:08:21",
+        "iso3": "NGA",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "NG",
+            "iso3": "NGA",
+            "countryname": "Nigeria"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [14.8327, 5.8056, 14.8327, 5.8056],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.8327, 5.8056]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104163,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Central African Republic",
+        "description": "Flood in Central African Republic",
+        "htmldescription": "Green Flood in Central African Republic from: 08 Sep 2026 01 to: 10 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104163&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104163&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104163"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Central African Republic",
+        "fromdate": "2026-09-08T01:00:00",
+        "todate": "2026-09-10T01:00:00",
+        "datemodified": "2026-09-17T06:24:51",
+        "iso3": "CAF",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "CF",
+            "iso3": "CAF",
+            "countryname": "Central African Republic"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [55.4926, -4.6838, 55.4926, -4.6838],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [55.4926, -4.6838]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104171,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Seychelles",
+        "description": "Flood in Seychelles",
+        "htmldescription": "Green Flood in Seychelles from: 08 Sep 2026 01 to: 10 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104171&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104171&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104171"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Seychelles",
+        "fromdate": "2026-09-08T01:00:00",
+        "todate": "2026-09-10T01:00:00",
+        "datemodified": "2026-09-18T12:26:10",
+        "iso3": "SYC",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "SC",
+            "iso3": "SYC",
+            "countryname": "Seychelles"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [55.0707, 37.1984, 55.0707, 37.1984],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [55.0707, 37.1984]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104147,
+        "episodeid": 3,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Islamic Republic of Iran",
+        "description": "Flood in Islamic Republic of Iran",
+        "htmldescription": "Green Flood in Islamic Republic of Iran from: 07 Sep 2026 01 to: 10 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104147&episodeid=3",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104147&episodeid=3&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104147"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Islamic Republic of Iran",
+        "fromdate": "2026-09-07T01:00:00",
+        "todate": "2026-09-10T01:00:00",
+        "datemodified": "2026-09-10T07:38:28",
+        "iso3": "IRN",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "IR",
+            "iso3": "IRN",
+            "countryname": "Islamic Republic of Iran"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [9.6806, 47.5644, 9.6806, 47.5644],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.6806, 47.5644]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104150,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Germany",
+        "description": "Flood in Germany",
+        "htmldescription": "Green Flood in Germany from: 08 Sep 2026 01 to: 09 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104150&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104150&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104150"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Germany",
+        "fromdate": "2026-09-08T01:00:00",
+        "todate": "2026-09-09T01:00:00",
+        "datemodified": "2026-09-11T09:05:40",
+        "iso3": "DEU",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "DE",
+            "iso3": "DEU",
+            "countryname": "Germany"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [-103.854, 49.6651, -103.854, 49.6651],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-103.854, 49.6651]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104143,
+        "episodeid": 3,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Canada",
+        "description": "Flood in Canada",
+        "htmldescription": "Green Flood in Canada from: 02 Sep 2026 01 to: 09 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104143&episodeid=3",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104143&episodeid=3&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104143"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Canada",
+        "fromdate": "2026-09-02T01:00:00",
+        "todate": "2026-09-09T01:00:00",
+        "datemodified": "2026-09-10T04:39:50",
+        "iso3": "CAN",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "CA",
+            "iso3": "CAN",
+            "countryname": "Canada"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [41.4032, 39.7582, 41.4032, 39.7582],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41.4032, 39.7582]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104131,
+        "episodeid": 4,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Türkiye",
+        "description": "Flood in Türkiye",
+        "htmldescription": "Green Flood in Türkiye from: 28 Aug 2026 01 to: 08 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104131&episodeid=4",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104131&episodeid=4&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104131"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Türkiye",
+        "fromdate": "2026-08-28T01:00:00",
+        "todate": "2026-09-08T01:00:00",
+        "datemodified": "2026-09-10T07:39:02",
+        "iso3": "TUR",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "TR",
+            "iso3": "TUR",
+            "countryname": "Türkiye"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [99.3812, 2.1924, 99.3812, 2.1924],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [99.3812, 2.1924]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104146,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Indonesia",
+        "description": "Flood in Indonesia",
+        "htmldescription": "Green Flood in Indonesia from: 06 Sep 2026 01 to: 08 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104146&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104146&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104146"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Indonesia",
+        "fromdate": "2026-09-06T01:00:00",
+        "todate": "2026-09-08T01:00:00",
+        "datemodified": "2026-09-09T06:20:56",
+        "iso3": "IDN",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "ID",
+            "iso3": "IDN",
+            "countryname": "Indonesia"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [18.0294, 53.1297, 18.0294, 53.1297],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.0294, 53.1297]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104144,
+        "episodeid": 2,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Poland",
+        "description": "Flood in Poland",
+        "htmldescription": "Green Flood in Poland from: 05 Sep 2026 01 to: 06 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104144&episodeid=2",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104144&episodeid=2&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104144"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Poland",
+        "fromdate": "2026-09-05T01:00:00",
+        "todate": "2026-09-06T01:00:00",
+        "datemodified": "2026-09-08T11:30:21",
+        "iso3": "POL",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "PL",
+            "iso3": "POL",
+            "countryname": "Poland"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [88.1398, 25.0057, 88.1398, 25.0057],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.1398, 25.0057]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104162,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in India",
+        "description": "Flood in India",
+        "htmldescription": "Green Flood in India from: 03 Sep 2026 01 to: 05 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104162&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104162&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104162"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "India",
+        "fromdate": "2026-09-03T01:00:00",
+        "todate": "2026-09-05T01:00:00",
+        "datemodified": "2026-09-17T05:46:38",
+        "iso3": "IND",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "IN",
+            "iso3": "IND",
+            "countryname": "India"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "bbox": [24.5026, 58.3871, 24.5026, 58.3871],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.5026, 58.3871]
+      },
+      "properties": {
+        "eventtype": "FL",
+        "eventid": 1104172,
+        "episodeid": 1,
+        "eventname": "",
+        "glide": "",
+        "name": "Flood in Estonia",
+        "description": "Flood in Estonia",
+        "htmldescription": "Green Flood in Estonia from: 04 Sep 2026 01 to: 05 Sep 2026 01.",
+        "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png",
+        "url": {
+          "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104172&episodeid=1",
+          "report": "https://www.gdacs.org/report.aspx?eventid=1104172&episodeid=1&eventtype=FL",
+          "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=FL&eventid=1104172"
+        },
+        "alertlevel": "Green",
+        "alertscore": 1,
+        "episodealertlevel": "Green",
+        "episodealertscore": 0.5,
+        "istemporary": "false",
+        "iscurrent": "false",
+        "country": "Estonia",
+        "fromdate": "2026-09-04T01:00:00",
+        "todate": "2026-09-05T01:00:00",
+        "datemodified": "2026-09-18T12:26:21",
+        "iso3": "EST",
+        "source": "GLOFAS",
+        "sourceid": "",
+        "polygonlabel": "Centroid",
+        "Class": "Point_Centroid",
+        "affectedcountries": [
+          {
+            "iso2": "EE",
+            "iso3": "EST",
+            "countryname": "Estonia"
+          }
+        ],
+        "severitydata": {
+          "severity": 0,
+          "severitytext": "Magnitude 0 ",
+          "severityunit": ""
+        }
+      }
+    }
+  ],
+  "bbox": null
+}
+

@@ -1,0 +1,65 @@
+{
+  "fixture_source_url": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH?fromdate=2026-10-04&todate=2026-10-18",
+  "captured_at": "2026-10-18T17:59:18.429762+00:00",
+  "payload": {
+    "type": "Feature",
+    "bbox": [
+      141.4,
+      13.5,
+      141.4,
+      13.5
+    ],
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        141.4,
+        13.5
+      ]
+    },
+    "properties": {
+      "eventtype": "TC",
+      "eventid": 1001338,
+      "episodeid": 17,
+      "eventname": "CHAMPI-26",
+      "glide": "TC-2026-000192-GUM",
+      "name": "Tropical Cyclone CHAMPI-26",
+      "description": "Tropical Cyclone CHAMPI-26",
+      "htmldescription": "Red Tropical Cyclone CHAMPI-26 in Guam, Northern Mariana Islands from: 14 Oct 2026  to: 18 Oct 2026 .",
+      "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+      "iconoverall": "https://www.gdacs.org/images/gdacs_icons/maps/Red/TC.png",
+      "url": {
+        "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001338&episodeid=17",
+        "report": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=17&eventtype=TC",
+        "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=TC&eventid=1001338"
+      },
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "episodealertlevel": "Green",
+      "episodealertscore": 1.0,
+      "istemporary": "false",
+      "iscurrent": "true",
+      "country": "Guam, Northern Mariana Islands",
+      "fromdate": "2026-10-14T12:00:00",
+      "todate": "2026-10-18T12:00:00",
+      "datemodified": "2026-10-18T15:01:04",
+      "iso3": "GUM",
+      "source": "JTWC",
+      "sourceid": "",
+      "polygonlabel": "Centroid",
+      "Class": "Point_Centroid",
+      "countryonland": "",
+      "affectedcountries": [
+        {
+          "iso2": "GU",
+          "iso3": "GUM",
+          "countryname": "Guam"
+        }
+      ],
+      "severitydata": {
+        "severity": 259.2576,
+        "severitytext": "Hurricane/Typhoon > 74 mph (maximum wind speed of 259 km/h)",
+        "severityunit": "km/h"
+      }
+    }
+  }
+}

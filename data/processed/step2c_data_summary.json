@@ -1,0 +1,51 @@
+{
+  "buildings": {
+    "source": "OpenStreetMap (OSM) contributors, downloaded through Geofabrik",
+    "feature_count": 200402,
+    "crs": "EPSG:4326",
+    "area_km2": 20.54412699727823
+  },
+  "population": {
+    "source": "WorldPop, University of Southampton",
+    "year": 2020,
+    "resolution": {
+      "arc_seconds": [
+        2.9999999880256594,
+        2.9999999879989563
+      ],
+      "degrees": [
+        0.0008333333300071276,
+        0.0008333333299997101
+      ],
+      "approximate_metres_at_bihar_centre": {
+        "east_west": 83.49918857591976,
+        "north_south": 92.3221068779303
+      },
+      "source_description": "3 arc-seconds, approximately 100 m at the equator"
+    },
+    "crs": "EPSG:4326",
+    "units": "estimated number of people per pixel (grid-cell)",
+    "valid_pixel_count": 4730704
+  },
+  "status": "validated",
+  "validation": {
+    "valid": true,
+    "buildings": {
+      "feature_count": 200402,
+      "valid_feature_count": 200402,
+      "invalid_feature_count": 0,
+      "repaired_feature_count": 0,
+      "crs": "EPSG:4326",
+      "intersects_bihar": true,
+      "contained_in_bihar": true
+    },
+    "population": {
+      "valid_pixel_count": 4730704,
+      "crs": "EPSG:4326",
+      "nodata": -99999.0,
+      "units": "estimated number of people per pixel (grid-cell)",
+      "source_year": 2020,
+      "bihar_boundary_mask_verified": true
+    }
+  }
+}

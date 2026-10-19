@@ -1,0 +1,3113 @@
+{
+  "fixture_source_url": "https://stac.dataspace.copernicus.eu/v1/search",
+  "captured_at": "2026-10-18T18:00:41.470415+00:00",
+  "payload": {
+    "id": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035",
+    "bbox": [
+      84.0422865482062,
+      23.394092946074444,
+      84.89419307709736,
+      24.398135088066788
+    ],
+    "type": "Feature",
+    "links": [
+      {
+        "rel": "collection",
+        "type": "application/json",
+        "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-2-l2a"
+      },
+      {
+        "rel": "parent",
+        "type": "application/json",
+        "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-2-l2a"
+      },
+      {
+        "rel": "root",
+        "type": "application/json",
+        "href": "https://stac.dataspace.copernicus.eu/v1/"
+      },
+      {
+        "rel": "self",
+        "type": "application/geo+json",
+        "href": "https://stac.dataspace.copernicus.eu/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035"
+      },
+      {
+        "rel": "enclosure",
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/",
+        "type": "application/x-directory",
+        "title": "S3 path to source directory",
+        "auth:refs": [
+          "s3"
+        ],
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ]
+      },
+      {
+        "rel": "version-history",
+        "href": "https://trace.dataspace.copernicus.eu/api/v1/traces/name/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE.zip",
+        "type": "application/json",
+        "title": "Product history record from the CDSE traceability service"
+      }
+    ],
+    "assets": {
+      "AOT_10m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R10m/T45QTG_20261006T045659_AOT_10m.jp2",
+        "bands": [
+          {
+            "name": "AOT",
+            "description": "Aerosol optical thickness"
+          }
+        ],
+        "roles": [
+          "data",
+          "gsd:10m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R10m)/Nodes(T45QTG_20261006T045659_AOT_10m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 2697067,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "raster:scale": 0.001,
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "file:checksum": "162083c3e1845236c67e79b5db2ef75ca18c348275a1c3d0773ed57e96d517ac1ab3",
+        "raster:offset": 0.0,
+        "proj:transform": [
+          10,
+          0,
+          199980,
+          0,
+          -10,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R10m/T45QTG_20261006T045659_AOT_10m.jp2",
+        "gsd": 10,
+        "type": "image/jp2",
+        "title": "Aerosol optical thickness (AOT) - 10m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          10980,
+          10980
+        ],
+        "alternate:name": "S3"
+      },
+      "AOT_20m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_AOT_20m.jp2",
+        "bands": [
+          {
+            "name": "AOT",
+            "description": "Aerosol optical thickness"
+          }
+        ],
+        "roles": [
+          "data",
+          "gsd:20m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R20m)/Nodes(T45QTG_20261006T045659_AOT_20m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 1484331,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "raster:scale": 0.001,
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "file:checksum": "1620efa883428484f35aaa8a7ed2b5244f6b7ad9dec3f3110f4d2700821c9ce8c999",
+        "raster:offset": 0.0,
+        "proj:transform": [
+          20,
+          0,
+          199980,
+          0,
+          -20,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_AOT_20m.jp2",
+        "gsd": 20,
+        "type": "image/jp2",
+        "title": "Aerosol optical thickness (AOT) - 20m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          5490,
+          5490
+        ],
+        "alternate:name": "S3"
+      },
+      "AOT_60m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_AOT_60m.jp2",
+        "bands": [
+          {
+            "name": "AOT",
+            "description": "Aerosol optical thickness"
+          }
+        ],
+        "roles": [
+          "data",
+          "gsd:60m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R60m)/Nodes(T45QTG_20261006T045659_AOT_60m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 312396,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "raster:scale": 0.001,
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "file:checksum": "1620c3af503cbc8855beb210c11293d96a70892bbc1664602dbd6acfefd0c6d2512d",
+        "raster:offset": 0.0,
+        "proj:transform": [
+          60,
+          0,
+          199980,
+          0,
+          -60,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_AOT_60m.jp2",
+        "gsd": 60,
+        "type": "image/jp2",
+        "title": "Aerosol optical thickness (AOT) - 60m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          1830,
+          1830
+        ],
+        "alternate:name": "S3"
+      },
+      "B01_20m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_B01_20m.jp2",
+        "bands": [
+          {
+            "name": "B01",
+            "description": "Coastal aerosol (band 1)",
+            "eo:common_name": "coastal",
+            "eo:center_wavelength": 0.443,
+            "eo:full_width_half_max": 0.228
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:upsampled",
+          "gsd:20m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R20m)/Nodes(T45QTG_20261006T045659_B01_20m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 13628225,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 285.907905535701,
+        "file:checksum": "16207967cc29b19950bdbfbfd3defb4b23cbd2c2534992866d487de766070ad8629b",
+        "proj:transform": [
+          20,
+          0,
+          199980,
+          0,
+          -20,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_B01_20m.jp2",
+        "view:incidence_angle": 9.05564129286181,
+        "gsd": 20,
+        "type": "image/jp2",
+        "title": "Coastal aerosol (band 1) - 20m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          5490,
+          5490
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B01_60m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_B01_60m.jp2",
+        "bands": [
+          {
+            "name": "B01",
+            "description": "Coastal aerosol (band 1)",
+            "eo:common_name": "coastal",
+            "eo:center_wavelength": 0.443,
+            "eo:full_width_half_max": 0.228
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:original",
+          "gsd:60m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R60m)/Nodes(T45QTG_20261006T045659_B01_60m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 2359725,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 285.907905535701,
+        "file:checksum": "1620834ff063c52e4aa060101a430a1d8669dd07f89b2eacea7aa023fe9226b27ecc",
+        "proj:transform": [
+          60,
+          0,
+          199980,
+          0,
+          -60,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_B01_60m.jp2",
+        "view:incidence_angle": 9.05564129286181,
+        "gsd": 60,
+        "type": "image/jp2",
+        "title": "Coastal aerosol (band 1) - 60m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          1830,
+          1830
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B02_10m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R10m/T45QTG_20261006T045659_B02_10m.jp2",
+        "bands": [
+          {
+            "name": "B02",
+            "description": "Blue (band 2)",
+            "eo:common_name": "blue",
+            "eo:center_wavelength": 0.493,
+            "eo:full_width_half_max": 0.267
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:original",
+          "gsd:10m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R10m)/Nodes(T45QTG_20261006T045659_B02_10m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 76467814,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 284.02165689237,
+        "file:checksum": "1620a2bc49e3a09a900b46acc29193f67ab2639381cf52ec87d8bf85b43c60f7e2cb",
+        "proj:transform": [
+          10,
+          0,
+          199980,
+          0,
+          -10,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R10m/T45QTG_20261006T045659_B02_10m.jp2",
+        "view:incidence_angle": 8.87398727454776,
+        "gsd": 10,
+        "type": "image/jp2",
+        "title": "Blue (band 2) - 10m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          10980,
+          10980
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B02_20m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_B02_20m.jp2",
+        "bands": [
+          {
+            "name": "B02",
+            "description": "Blue (band 2)",
+            "eo:common_name": "blue",
+            "eo:center_wavelength": 0.493,
+            "eo:full_width_half_max": 0.267
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:downsampled",
+          "gsd:20m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R20m)/Nodes(T45QTG_20261006T045659_B02_20m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 20567719,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 284.02165689237,
+        "file:checksum": "162013e6dcd204194fe81d7fe615ff8b7e42222cdffbd42f9e0ff56d4a87f717b826",
+        "proj:transform": [
+          20,
+          0,
+          199980,
+          0,
+          -20,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_B02_20m.jp2",
+        "view:incidence_angle": 8.87398727454776,
+        "gsd": 20,
+        "type": "image/jp2",
+        "title": "Blue (band 2) - 20m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          5490,
+          5490
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B02_60m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_B02_60m.jp2",
+        "bands": [
+          {
+            "name": "B02",
+            "description": "Blue (band 2)",
+            "eo:common_name": "blue",
+            "eo:center_wavelength": 0.493,
+            "eo:full_width_half_max": 0.267
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:downsampled",
+          "gsd:60m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R60m)/Nodes(T45QTG_20261006T045659_B02_60m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 2595354,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 284.02165689237,
+        "file:checksum": "16200216c95f740b9849b790b06b63a7b2199d60e5529268a9a49ccc283fe75dd595",
+        "proj:transform": [
+          60,
+          0,
+          199980,
+          0,
+          -60,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_B02_60m.jp2",
+        "view:incidence_angle": 8.87398727454776,
+        "gsd": 60,
+        "type": "image/jp2",
+        "title": "Blue (band 2) - 60m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          1830,
+          1830
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B03_10m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R10m/T45QTG_20261006T045659_B03_10m.jp2",
+        "bands": [
+          {
+            "name": "B03",
+            "description": "Green (band 3)",
+            "eo:common_name": "green",
+            "eo:center_wavelength": 0.56,
+            "eo:full_width_half_max": 0.291
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:original",
+          "gsd:10m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R10m)/Nodes(T45QTG_20261006T045659_B03_10m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 77240012,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 284.468646186097,
+        "file:checksum": "162046def0ac1094238418ba51e887d1fb9227515053db784b1b5b6fefdbfcc0b03d",
+        "proj:transform": [
+          10,
+          0,
+          199980,
+          0,
+          -10,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R10m/T45QTG_20261006T045659_B03_10m.jp2",
+        "view:incidence_angle": 8.90228038529284,
+        "gsd": 10,
+        "type": "image/jp2",
+        "title": "Green (band 3) - 10m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          10980,
+          10980
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B03_20m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_B03_20m.jp2",
+        "bands": [
+          {
+            "name": "B03",
+            "description": "Green (band 3)",
+            "eo:common_name": "green",
+            "eo:center_wavelength": 0.56,
+            "eo:full_width_half_max": 0.291
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:downsampled",
+          "gsd:20m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R20m)/Nodes(T45QTG_20261006T045659_B03_20m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 21164480,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 284.468646186097,
+        "file:checksum": "162053499eb65f352ba20ae1f2a23228b8c12744a49ae73bd593db6f83c8e62a3b5d",
+        "proj:transform": [
+          20,
+          0,
+          199980,
+          0,
+          -20,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_B03_20m.jp2",
+        "view:incidence_angle": 8.90228038529284,
+        "gsd": 20,
+        "type": "image/jp2",
+        "title": "Green (band 3) - 20m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          5490,
+          5490
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B03_60m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_B03_60m.jp2",
+        "bands": [
+          {
+            "name": "B03",
+            "description": "Green (band 3)",
+            "eo:common_name": "green",
+            "eo:center_wavelength": 0.56,
+            "eo:full_width_half_max": 0.291
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:downsampled",
+          "gsd:60m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R60m)/Nodes(T45QTG_20261006T045659_B03_60m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 2647112,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 284.468646186097,
+        "file:checksum": "16207f95b4591fa2b2120aa92c2673e09c63b397906774d3cb8f3bfcf4a00317a614",
+        "proj:transform": [
+          60,
+          0,
+          199980,
+          0,
+          -60,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_B03_60m.jp2",
+        "view:incidence_angle": 8.90228038529284,
+        "gsd": 60,
+        "type": "image/jp2",
+        "title": "Green (band 3) - 60m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          1830,
+          1830
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B04_10m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R10m/T45QTG_20261006T045659_B04_10m.jp2",
+        "bands": [
+          {
+            "name": "B04",
+            "description": "Red (band 4)",
+            "eo:common_name": "red",
+            "eo:center_wavelength": 0.665,
+            "eo:full_width_half_max": 0.342
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:original",
+          "gsd:10m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R10m)/Nodes(T45QTG_20261006T045659_B04_10m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 77239605,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 284.86669043494,
+        "file:checksum": "1620eaf9dbbf9f29a0453abb80513ff3eb2d401b7c8ada73314b9283b05f21bec76a",
+        "proj:transform": [
+          10,
+          0,
+          199980,
+          0,
+          -10,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R10m/T45QTG_20261006T045659_B04_10m.jp2",
+        "view:incidence_angle": 8.93141533150782,
+        "gsd": 10,
+        "type": "image/jp2",
+        "title": "Red (band 4) - 10m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          10980,
+          10980
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B04_20m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_B04_20m.jp2",
+        "bands": [
+          {
+            "name": "B04",
+            "description": "Red (band 4)",
+            "eo:common_name": "red",
+            "eo:center_wavelength": 0.665,
+            "eo:full_width_half_max": 0.342
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:downsampled",
+          "gsd:20m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R20m)/Nodes(T45QTG_20261006T045659_B04_20m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 21601698,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 284.86669043494,
+        "file:checksum": "162059b5f414db7bb21552b7dec87e7d8e011527cd48f8afa283cc49d7bf962c5538",
+        "proj:transform": [
+          20,
+          0,
+          199980,
+          0,
+          -20,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_B04_20m.jp2",
+        "view:incidence_angle": 8.93141533150782,
+        "gsd": 20,
+        "type": "image/jp2",
+        "title": "Red (band 4) - 20m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          5490,
+          5490
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B04_60m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_B04_60m.jp2",
+        "bands": [
+          {
+            "name": "B04",
+            "description": "Red (band 4)",
+            "eo:common_name": "red",
+            "eo:center_wavelength": 0.665,
+            "eo:full_width_half_max": 0.342
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:downsampled",
+          "gsd:60m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R60m)/Nodes(T45QTG_20261006T045659_B04_60m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 2721321,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 284.86669043494,
+        "file:checksum": "162045c8015ad63078e81ee3b26d2c994eddb9ff134ba40d48148f972e6c32716432",
+        "proj:transform": [
+          60,
+          0,
+          199980,
+          0,
+          -60,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_B04_60m.jp2",
+        "view:incidence_angle": 8.93141533150782,
+        "gsd": 60,
+        "type": "image/jp2",
+        "title": "Red (band 4) - 60m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          1830,
+          1830
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B05_20m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_B05_20m.jp2",
+        "bands": [
+          {
+            "name": "B05",
+            "description": "Red edge 1 (band 5)",
+            "eo:common_name": "rededge071",
+            "eo:center_wavelength": 0.704,
+            "eo:full_width_half_max": 0.357
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:original",
+          "gsd:20m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R20m)/Nodes(T45QTG_20261006T045659_B05_20m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 21661587,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 285.076049912922,
+        "file:checksum": "1620ff267550b62948dcb017b2e337a5509ffec489606628548fe7338872713fd3ae",
+        "proj:transform": [
+          20,
+          0,
+          199980,
+          0,
+          -20,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_B05_20m.jp2",
+        "view:incidence_angle": 8.95048045492507,
+        "gsd": 20,
+        "type": "image/jp2",
+        "title": "Red edge 1 (band 5) - 20m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          5490,
+          5490
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B05_60m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_B05_60m.jp2",
+        "bands": [
+          {
+            "name": "B05",
+            "description": "Red edge 1 (band 5)",
+            "eo:common_name": "rededge071",
+            "eo:center_wavelength": 0.704,
+            "eo:full_width_half_max": 0.357
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:downsampled",
+          "gsd:60m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R60m)/Nodes(T45QTG_20261006T045659_B05_60m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 2781108,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 285.076049912922,
+        "file:checksum": "16208acea1de137e7bbfcec10d0eae520f2926e645baa09bb12e98c13a7157f47ac1",
+        "proj:transform": [
+          60,
+          0,
+          199980,
+          0,
+          -60,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_B05_60m.jp2",
+        "view:incidence_angle": 8.95048045492507,
+        "gsd": 60,
+        "type": "image/jp2",
+        "title": "Red edge 1 (band 5) - 60m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          1830,
+          1830
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B06_20m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_B06_20m.jp2",
+        "bands": [
+          {
+            "name": "B06",
+            "description": "Red edge 2 (band 6)",
+            "eo:common_name": "rededge075",
+            "eo:center_wavelength": 0.741,
+            "eo:full_width_half_max": 0.374
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:original",
+          "gsd:20m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R20m)/Nodes(T45QTG_20261006T045659_B06_20m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 23066829,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 285.282284093741,
+        "file:checksum": "16200178f93d8294c87804306c8af70d6d8bee40a9fccb97e5f457563742c5b75408",
+        "proj:transform": [
+          20,
+          0,
+          199980,
+          0,
+          -20,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_B06_20m.jp2",
+        "view:incidence_angle": 8.96963204002577,
+        "gsd": 20,
+        "type": "image/jp2",
+        "title": "Red edge 2 (band 6) - 20m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          5490,
+          5490
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B06_60m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_B06_60m.jp2",
+        "bands": [
+          {
+            "name": "B06",
+            "description": "Red edge 2 (band 6)",
+            "eo:common_name": "rededge075",
+            "eo:center_wavelength": 0.741,
+            "eo:full_width_half_max": 0.374
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:downsampled",
+          "gsd:60m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R60m)/Nodes(T45QTG_20261006T045659_B06_60m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 2897752,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 285.282284093741,
+        "file:checksum": "1620a47817a54b7b0912b6e45277e7518203c349e4b365e2ed7af414159360c9617c",
+        "proj:transform": [
+          60,
+          0,
+          199980,
+          0,
+          -60,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_B06_60m.jp2",
+        "view:incidence_angle": 8.96963204002577,
+        "gsd": 60,
+        "type": "image/jp2",
+        "title": "Red edge 2 (band 6) - 60m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          1830,
+          1830
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B07_20m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_B07_20m.jp2",
+        "bands": [
+          {
+            "name": "B07",
+            "description": "Red edge 3 (band 7)",
+            "eo:common_name": "rededge078",
+            "eo:center_wavelength": 0.783,
+            "eo:full_width_half_max": 0.399
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:original",
+          "gsd:20m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R20m)/Nodes(T45QTG_20261006T045659_B07_20m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 23601263,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 285.509668707717,
+        "file:checksum": "16208f17eaede37a9412b257872871c7f9f0467d86803be0253dd3bd2af93fdf2947",
+        "proj:transform": [
+          20,
+          0,
+          199980,
+          0,
+          -20,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_B07_20m.jp2",
+        "view:incidence_angle": 9.00148520719522,
+        "gsd": 20,
+        "type": "image/jp2",
+        "title": "Red edge 3 (band 7) - 20m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          5490,
+          5490
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B07_60m": {
+        "gsd": 60,
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_B07_60m.jp2",
+        "bands": [
+          {
+            "name": "B07",
+            "description": "Red edge 3 (band 7)",
+            "eo:common_name": "rededge078",
+            "eo:center_wavelength": 0.783,
+            "eo:full_width_half_max": 0.399
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:downsampled",
+          "gsd:60m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R60m)/Nodes(T45QTG_20261006T045659_B07_60m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 2948603,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 285.509668707717,
+        "file:checksum": "1620d967fe370f216dc9a518d16490d0d16c5bb4f1dea15f8f1ffc5112c5f9feda28",
+        "proj:transform": [
+          60,
+          0,
+          199980,
+          0,
+          -60,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_B07_60m.jp2",
+        "view:incidence_angle": 9.00148520719522,
+        "type": "image/jp2",
+        "title": "Red edge 3 (band 7) - 60m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          1830,
+          1830
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B08_10m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R10m/T45QTG_20261006T045659_B08_10m.jp2",
+        "bands": [
+          {
+            "name": "B08",
+            "description": "NIR 1 (band 8)",
+            "eo:common_name": "nir",
+            "eo:center_wavelength": 0.833,
+            "eo:full_width_half_max": 0.454
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:original",
+          "gsd:10m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R10m)/Nodes(T45QTG_20261006T045659_B08_10m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 90042199,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 284.239534512208,
+        "file:checksum": "1620761d1d29f07d86e02033eda0777be4dfae3041613f6b1dc2e87737956c737452",
+        "proj:transform": [
+          10,
+          0,
+          199980,
+          0,
+          -10,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R10m/T45QTG_20261006T045659_B08_10m.jp2",
+        "view:incidence_angle": 8.89231640528522,
+        "gsd": 10,
+        "type": "image/jp2",
+        "title": "NIR 1 (band 8) - 10m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          10980,
+          10980
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B09_60m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_B09_60m.jp2",
+        "bands": [
+          {
+            "name": "B09",
+            "description": "NIR 3 (band 9)",
+            "eo:common_name": "nir09",
+            "eo:center_wavelength": 0.945,
+            "eo:full_width_half_max": 0.479
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:original",
+          "gsd:60m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R60m)/Nodes(T45QTG_20261006T045659_B09_60m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 2853079,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 286.132467808348,
+        "file:checksum": "1620269edecdc129773d7a2cf5177ada846d8b8a9324f6c7046cfd488a2a202cd46b",
+        "proj:transform": [
+          60,
+          0,
+          199980,
+          0,
+          -60,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_B09_60m.jp2",
+        "view:incidence_angle": 9.08683807047609,
+        "gsd": 60,
+        "type": "image/jp2",
+        "title": "NIR 3 (band 9) - 60m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          1830,
+          1830
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B11_20m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_B11_20m.jp2",
+        "bands": [
+          {
+            "name": "B11",
+            "description": "SWIR 1 (band 11)",
+            "eo:common_name": "swir16",
+            "eo:center_wavelength": 1.614,
+            "eo:full_width_half_max": 0.841
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:original",
+          "gsd:20m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R20m)/Nodes(T45QTG_20261006T045659_B11_20m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 22135012,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 285.194498895122,
+        "file:checksum": "16209d1102fe1a2d9e905745c561d682596abe90038587e26e71cf27361bc6dcf1fb",
+        "proj:transform": [
+          20,
+          0,
+          199980,
+          0,
+          -20,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_B11_20m.jp2",
+        "view:incidence_angle": 8.96816620252303,
+        "gsd": 20,
+        "type": "image/jp2",
+        "title": "SWIR 1 (band 11) - 20m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          5490,
+          5490
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B11_60m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_B11_60m.jp2",
+        "bands": [
+          {
+            "name": "B11",
+            "description": "SWIR 1 (band 11)",
+            "eo:common_name": "swir16",
+            "eo:center_wavelength": 1.614,
+            "eo:full_width_half_max": 0.841
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:downsampled",
+          "gsd:60m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R60m)/Nodes(T45QTG_20261006T045659_B11_60m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 2915770,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 285.194498895122,
+        "file:checksum": "1620efcb03ed3bffe78c0f605a36adcfddb0edc6f96757d0b2e2f617300c2b295cdb",
+        "proj:transform": [
+          60,
+          0,
+          199980,
+          0,
+          -60,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_B11_60m.jp2",
+        "view:incidence_angle": 8.96816620252303,
+        "gsd": 60,
+        "type": "image/jp2",
+        "title": "SWIR 1 (band 11) - 60m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          1830,
+          1830
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B12_20m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_B12_20m.jp2",
+        "bands": [
+          {
+            "name": "B12",
+            "description": "SWIR 2 (band 12)",
+            "eo:common_name": "swir22",
+            "eo:center_wavelength": 2.202,
+            "eo:full_width_half_max": 1.16
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:original",
+          "gsd:20m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R20m)/Nodes(T45QTG_20261006T045659_B12_20m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 21680863,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 285.708375952453,
+        "file:checksum": "16200350c781a687d5bc2f1ea024eeb80af0aaf9bc5e9aaba3a8a9d0b171e98618d1",
+        "proj:transform": [
+          20,
+          0,
+          199980,
+          0,
+          -20,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_B12_20m.jp2",
+        "view:incidence_angle": 9.03315178805606,
+        "gsd": 20,
+        "type": "image/jp2",
+        "title": "SWIR 2 (band 12) - 20m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          5490,
+          5490
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B12_60m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_B12_60m.jp2",
+        "bands": [
+          {
+            "name": "B12",
+            "description": "SWIR 2 (band 12)",
+            "eo:common_name": "swir22",
+            "eo:center_wavelength": 2.202,
+            "eo:full_width_half_max": 1.16
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:downsampled",
+          "gsd:60m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R60m)/Nodes(T45QTG_20261006T045659_B12_60m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 2864100,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 285.708375952453,
+        "file:checksum": "1620519be8c734db2c0dd441bd6d57b2ca9844515fd2a1651d4d983c3fff0048c1c3",
+        "proj:transform": [
+          60,
+          0,
+          199980,
+          0,
+          -60,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_B12_60m.jp2",
+        "view:incidence_angle": 9.03315178805606,
+        "gsd": 60,
+        "type": "image/jp2",
+        "title": "SWIR 2 (band 12) - 60m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          1830,
+          1830
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B8A_20m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_B8A_20m.jp2",
+        "bands": [
+          {
+            "name": "B8A",
+            "description": "NIR 2 (band 8A)",
+            "eo:common_name": "nir08",
+            "eo:center_wavelength": 0.865,
+            "eo:full_width_half_max": 0.441
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:original",
+          "gsd:20m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R20m)/Nodes(T45QTG_20261006T045659_B8A_20m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 23790978,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 285.730974562531,
+        "file:checksum": "16208bda7640cc9f0069a9e9fbc82b04239dbd88c9e0a77ffa2ef38d6a403768f828",
+        "proj:transform": [
+          20,
+          0,
+          199980,
+          0,
+          -20,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_B8A_20m.jp2",
+        "view:incidence_angle": 9.0273955131934,
+        "gsd": 20,
+        "type": "image/jp2",
+        "title": "NIR 2 (band 8A) - 20m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          5490,
+          5490
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "B8A_60m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_B8A_60m.jp2",
+        "bands": [
+          {
+            "name": "B8A",
+            "description": "NIR 2 (band 8A)",
+            "eo:common_name": "nir08",
+            "eo:center_wavelength": 0.865,
+            "eo:full_width_half_max": 0.441
+          }
+        ],
+        "roles": [
+          "data",
+          "reflectance",
+          "sampling:downsampled",
+          "gsd:60m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R60m)/Nodes(T45QTG_20261006T045659_B8A_60m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 2980515,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "view:azimuth": 285.730974562531,
+        "file:checksum": "1620b305acdef6c773a59af23fa33f1ca2c390cf7c80693a6047070686ac06ca2f73",
+        "proj:transform": [
+          60,
+          0,
+          199980,
+          0,
+          -60,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_B8A_60m.jp2",
+        "view:incidence_angle": 9.0273955131934,
+        "gsd": 60,
+        "type": "image/jp2",
+        "title": "NIR 2 (band 8A) - 60m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          1830,
+          1830
+        ],
+        "raster:scale": 0.0001,
+        "raster:offset": -0.1,
+        "alternate:name": "S3"
+      },
+      "CLD_20m": {
+        "gsd": 20,
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/QI_DATA/MSK_CLDPRB_20m.jp2",
+        "type": "image/jp2",
+        "unit": "%",
+        "bands": [
+          {
+            "name": "CLD",
+            "description": "Cloud probability"
+          }
+        ],
+        "roles": [
+          "data",
+          "gsd:20m"
+        ],
+        "title": "Cloud probability (CLD) - 20m",
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(QI_DATA)/Nodes(MSK_CLDPRB_20m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "data_type": "uint8",
+        "file:size": 5506273,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "proj:shape": [
+          5490,
+          5490
+        ],
+        "statistics": {
+          "maximum": 100,
+          "minimum": 0
+        },
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "file:checksum": "16202d6224266f1757998bc2efb58b52d30448b5ffd6048a5ced083e1d11f3494d0b",
+        "alternate:name": "S3",
+        "proj:transform": [
+          20,
+          0,
+          199980,
+          0,
+          -20,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/QI_DATA/MSK_CLDPRB_20m.jp2"
+      },
+      "CLD_60m": {
+        "gsd": 60,
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/QI_DATA/MSK_CLDPRB_60m.jp2",
+        "type": "image/jp2",
+        "unit": "%",
+        "bands": [
+          {
+            "name": "CLD",
+            "description": "Cloud probability"
+          }
+        ],
+        "roles": [
+          "data",
+          "gsd:60m"
+        ],
+        "title": "Cloud probability (CLD) - 60m",
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(QI_DATA)/Nodes(MSK_CLDPRB_60m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "data_type": "uint8",
+        "file:size": 846745,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "proj:shape": [
+          1830,
+          1830
+        ],
+        "statistics": {
+          "maximum": 100,
+          "minimum": 0
+        },
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "file:checksum": "16207e6e70ff768612c4e7be2bfb24e9d9a4a3fa394551b9e3c6bd67a7842a0167fc",
+        "alternate:name": "S3",
+        "proj:transform": [
+          60,
+          0,
+          199980,
+          0,
+          -60,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/QI_DATA/MSK_CLDPRB_60m.jp2"
+      },
+      "Product": {
+        "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/$value",
+        "roles": [
+          "data",
+          "metadata",
+          "archive"
+        ],
+        "auth:refs": [
+          "oidc"
+        ],
+        "file:size": 792138025,
+        "file:checksum": "d501105fc8ca21ddcac685d250946d546a7476",
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE.zip",
+        "type": "application/zip",
+        "title": "Zipped product"
+      },
+      "SCL_20m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_SCL_20m.jp2",
+        "roles": [
+          "data",
+          "sampling:original",
+          "gsd:20m"
+        ],
+        "title": "Scene classification map (SCL) - 20m",
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R20m)/Nodes(T45QTG_20261006T045659_SCL_20m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 1577950,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "file:checksum": "162000c325432066cd3072480d068b34c86f3c1f51e25368155115c8ca5ef3b03265",
+        "proj:transform": [
+          20,
+          0,
+          199980,
+          0,
+          -20,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_SCL_20m.jp2",
+        "classification:classes": [
+          {
+            "name": "no_data",
+            "value": 0,
+            "nodata": true,
+            "percentage": 34.447038
+          },
+          {
+            "name": "saturated_or_defective",
+            "value": 1,
+            "percentage": 0.0
+          },
+          {
+            "name": "dark_area_pixels",
+            "value": 2,
+            "percentage": 0.027969
+          },
+          {
+            "name": "cloud_shadows",
+            "value": 3,
+            "percentage": 7.839242
+          },
+          {
+            "name": "vegetation",
+            "value": 4,
+            "percentage": 49.244848
+          },
+          {
+            "name": "not_vegetated",
+            "value": 5,
+            "percentage": 11.250737
+          },
+          {
+            "name": "water",
+            "value": 6,
+            "percentage": 0.134707
+          },
+          {
+            "name": "unclassified",
+            "value": 7,
+            "percentage": 5.077568
+          },
+          {
+            "name": "cloud_medium_probability",
+            "value": 8,
+            "percentage": 13.413729
+          },
+          {
+            "name": "cloud_high_probability",
+            "value": 9,
+            "percentage": 12.46867
+          },
+          {
+            "name": "thin_cirrus",
+            "value": 10,
+            "percentage": 0.542532
+          },
+          {
+            "name": "snow",
+            "value": 11,
+            "percentage": 0.0
+          }
+        ],
+        "gsd": 20,
+        "type": "image/jp2",
+        "nodata": 0,
+        "data_type": "uint8",
+        "proj:shape": [
+          5490,
+          5490
+        ],
+        "alternate:name": "S3"
+      },
+      "SCL_60m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_SCL_60m.jp2",
+        "roles": [
+          "data",
+          "sampling:downsampled",
+          "gsd:60m"
+        ],
+        "title": "Scene classification map (SCL) - 60m",
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R60m)/Nodes(T45QTG_20261006T045659_SCL_60m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 311888,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "file:checksum": "162040c1818ec940febe11dcbb9e59b5942f501f8fabea964ee2a50cb330a5b62b77",
+        "proj:transform": [
+          60,
+          0,
+          199980,
+          0,
+          -60,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_SCL_60m.jp2",
+        "classification:classes": [
+          {
+            "name": "no_data",
+            "value": 0,
+            "nodata": true
+          },
+          {
+            "name": "saturated_or_defective",
+            "value": 1
+          },
+          {
+            "name": "dark_area_pixels",
+            "value": 2
+          },
+          {
+            "name": "cloud_shadows",
+            "value": 3
+          },
+          {
+            "name": "vegetation",
+            "value": 4
+          },
+          {
+            "name": "not_vegetated",
+            "value": 5
+          },
+          {
+            "name": "water",
+            "value": 6
+          },
+          {
+            "name": "unclassified",
+            "value": 7
+          },
+          {
+            "name": "cloud_medium_probability",
+            "value": 8
+          },
+          {
+            "name": "cloud_high_probability",
+            "value": 9
+          },
+          {
+            "name": "thin_cirrus",
+            "value": 10
+          },
+          {
+            "name": "snow",
+            "value": 11
+          }
+        ],
+        "gsd": 60,
+        "type": "image/jp2",
+        "nodata": 0,
+        "data_type": "uint8",
+        "proj:shape": [
+          1830,
+          1830
+        ],
+        "alternate:name": "S3"
+      },
+      "SNW_20m": {
+        "gsd": 20,
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/QI_DATA/MSK_SNWPRB_20m.jp2",
+        "type": "image/jp2",
+        "unit": "%",
+        "bands": [
+          {
+            "name": "SNW",
+            "description": "Snow probability"
+          }
+        ],
+        "roles": [
+          "data",
+          "gsd:20m"
+        ],
+        "title": "Snow probability (SNW) - 20m",
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(QI_DATA)/Nodes(MSK_SNWPRB_20m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "data_type": "uint8",
+        "file:size": 132849,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "proj:shape": [
+          5490,
+          5490
+        ],
+        "statistics": {
+          "maximum": 100,
+          "minimum": 0
+        },
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "file:checksum": "162092ba9cd1effa756255a132b15222ac71859751329faaf564917561daf138ace2",
+        "alternate:name": "S3",
+        "proj:transform": [
+          20,
+          0,
+          199980,
+          0,
+          -20,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/QI_DATA/MSK_SNWPRB_20m.jp2"
+      },
+      "SNW_60m": {
+        "gsd": 60,
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/QI_DATA/MSK_SNWPRB_60m.jp2",
+        "type": "image/jp2",
+        "unit": "%",
+        "bands": [
+          {
+            "name": "SNW",
+            "description": "Snow probability"
+          }
+        ],
+        "roles": [
+          "data",
+          "gsd:60m"
+        ],
+        "title": "Snow probability (SNW) - 60m",
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(QI_DATA)/Nodes(MSK_SNWPRB_60m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "data_type": "uint8",
+        "file:size": 25931,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "proj:shape": [
+          1830,
+          1830
+        ],
+        "statistics": {
+          "maximum": 100,
+          "minimum": 0
+        },
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "file:checksum": "1620a6902720d6a01556ccd37e1dafe31f0b40fea71a64a746601260293b608d92c4",
+        "alternate:name": "S3",
+        "proj:transform": [
+          60,
+          0,
+          199980,
+          0,
+          -60,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/QI_DATA/MSK_SNWPRB_60m.jp2"
+      },
+      "TCI_10m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R10m/T45QTG_20261006T045659_TCI_10m.jp2",
+        "bands": [
+          {
+            "eo:center_wavelength": 0.665,
+            "eo:full_width_half_max": 0.342,
+            "name": "B04",
+            "description": "Red (band 4)",
+            "eo:common_name": "red"
+          },
+          {
+            "eo:center_wavelength": 0.56,
+            "eo:full_width_half_max": 0.291,
+            "name": "B03",
+            "description": "Green (band 3)",
+            "eo:common_name": "green"
+          },
+          {
+            "eo:center_wavelength": 0.493,
+            "eo:full_width_half_max": 0.267,
+            "name": "B02",
+            "description": "Blue (band 2)",
+            "eo:common_name": "blue"
+          }
+        ],
+        "roles": [
+          "visual",
+          "sampling:original",
+          "gsd:10m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R10m)/Nodes(T45QTG_20261006T045659_TCI_10m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 101513796,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "file:checksum": "1620eb4a262bc20df521edb610d275048286abe1f0717b5353fa53a7a8bdb7fdc115",
+        "proj:transform": [
+          10,
+          0,
+          199980,
+          0,
+          -10,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R10m/T45QTG_20261006T045659_TCI_10m.jp2",
+        "gsd": 10,
+        "type": "image/jp2",
+        "title": "True color image",
+        "nodata": 0,
+        "data_type": "uint8",
+        "proj:shape": [
+          10980,
+          10980
+        ],
+        "alternate:name": "S3"
+      },
+      "TCI_20m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_TCI_20m.jp2",
+        "bands": [
+          {
+            "eo:center_wavelength": 0.665,
+            "eo:full_width_half_max": 0.342,
+            "name": "B04",
+            "description": "Red (band 4)",
+            "eo:common_name": "red"
+          },
+          {
+            "eo:center_wavelength": 0.56,
+            "eo:full_width_half_max": 0.291,
+            "name": "B03",
+            "description": "Green (band 3)",
+            "eo:common_name": "green"
+          },
+          {
+            "eo:center_wavelength": 0.493,
+            "eo:full_width_half_max": 0.267,
+            "name": "B02",
+            "description": "Blue (band 2)",
+            "eo:common_name": "blue"
+          }
+        ],
+        "roles": [
+          "visual",
+          "sampling:downsampled",
+          "gsd:20m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R20m)/Nodes(T45QTG_20261006T045659_TCI_20m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 28301020,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "file:checksum": "162059216a738c27178d6c335282e13a1937ff71a3ec261e1d6889426b5ff7996cd4",
+        "proj:transform": [
+          20,
+          0,
+          199980,
+          0,
+          -20,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_TCI_20m.jp2",
+        "gsd": 20,
+        "type": "image/jp2",
+        "title": "True color image",
+        "nodata": 0,
+        "data_type": "uint8",
+        "proj:shape": [
+          5490,
+          5490
+        ],
+        "alternate:name": "S3"
+      },
+      "TCI_60m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_TCI_60m.jp2",
+        "bands": [
+          {
+            "eo:center_wavelength": 0.665,
+            "eo:full_width_half_max": 0.342,
+            "name": "B04",
+            "description": "Red (band 4)",
+            "eo:common_name": "red"
+          },
+          {
+            "eo:center_wavelength": 0.56,
+            "eo:full_width_half_max": 0.291,
+            "name": "B03",
+            "description": "Green (band 3)",
+            "eo:common_name": "green"
+          },
+          {
+            "eo:center_wavelength": 0.493,
+            "eo:full_width_half_max": 0.267,
+            "name": "B02",
+            "description": "Blue (band 2)",
+            "eo:common_name": "blue"
+          }
+        ],
+        "roles": [
+          "visual",
+          "sampling:downsampled",
+          "gsd:60m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R60m)/Nodes(T45QTG_20261006T045659_TCI_60m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 3668439,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "file:checksum": "16206bae1b151dc6de9c8bb9fa38906f8abb7935191b443b20352c2222928ed9105f",
+        "proj:transform": [
+          60,
+          0,
+          199980,
+          0,
+          -60,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_TCI_60m.jp2",
+        "gsd": 60,
+        "type": "image/jp2",
+        "title": "True color image",
+        "nodata": 0,
+        "data_type": "uint8",
+        "proj:shape": [
+          1830,
+          1830
+        ],
+        "alternate:name": "S3"
+      },
+      "WVP_10m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R10m/T45QTG_20261006T045659_WVP_10m.jp2",
+        "bands": [
+          {
+            "name": "WVP",
+            "description": "Water vapour"
+          }
+        ],
+        "roles": [
+          "data",
+          "gsd:10m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R10m)/Nodes(T45QTG_20261006T045659_WVP_10m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 44794370,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "raster:scale": 0.001,
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "file:checksum": "1620abf14d3f5c56f62320d23af8df192e794b1c120e03cf8cd6f13743d03642351b",
+        "raster:offset": 0.0,
+        "proj:transform": [
+          10,
+          0,
+          199980,
+          0,
+          -10,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R10m/T45QTG_20261006T045659_WVP_10m.jp2",
+        "gsd": 10,
+        "type": "image/jp2",
+        "title": "Water vapour (WVP) - 10m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          10980,
+          10980
+        ],
+        "alternate:name": "S3"
+      },
+      "WVP_20m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_WVP_20m.jp2",
+        "bands": [
+          {
+            "name": "WVP",
+            "description": "Water vapour"
+          }
+        ],
+        "roles": [
+          "data",
+          "gsd:20m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R20m)/Nodes(T45QTG_20261006T045659_WVP_20m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 13525973,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "raster:scale": 0.001,
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "file:checksum": "1620215dc6993af305747b2ac6e4e5057983931ad33bc284421ca2f9bb33bbf97ed8",
+        "raster:offset": 0.0,
+        "proj:transform": [
+          20,
+          0,
+          199980,
+          0,
+          -20,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R20m/T45QTG_20261006T045659_WVP_20m.jp2",
+        "gsd": 20,
+        "type": "image/jp2",
+        "title": "Water vapour (WVP) - 20m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          5490,
+          5490
+        ],
+        "alternate:name": "S3"
+      },
+      "WVP_60m": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_WVP_60m.jp2",
+        "bands": [
+          {
+            "name": "WVP",
+            "description": "Water vapour"
+          }
+        ],
+        "roles": [
+          "data",
+          "gsd:60m"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(IMG_DATA)/Nodes(R60m)/Nodes(T45QTG_20261006T045659_WVP_60m.jp2)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 1842843,
+        "proj:bbox": [
+          199980,
+          2590200,
+          309780,
+          2700000
+        ],
+        "proj:code": "EPSG:32645",
+        "raster:scale": 0.001,
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "file:checksum": "1620a12ca0ccc26e4170b2ae9c3f46a191dde82d34de6dfdc95c78f6ac644b08ac53",
+        "raster:offset": 0.0,
+        "proj:transform": [
+          60,
+          0,
+          199980,
+          0,
+          -60,
+          2700000
+        ],
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/IMG_DATA/R60m/T45QTG_20261006T045659_WVP_60m.jp2",
+        "gsd": 60,
+        "type": "image/jp2",
+        "title": "Water vapour (WVP) - 60m",
+        "nodata": 0,
+        "data_type": "uint16",
+        "proj:shape": [
+          1830,
+          1830
+        ],
+        "alternate:name": "S3"
+      },
+      "thumbnail": {
+        "href": "https://datahub.creodias.eu/odata/v1/Assets(9870e006-222b-4f39-87cd-1e4cce8e5bb7)/$value",
+        "roles": [
+          "thumbnail",
+          "overview"
+        ],
+        "alternate": {
+          "s3": {
+            "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035-ql.jpg",
+            "auth:refs": [
+              "s3"
+            ],
+            "storage:refs": [
+              "cdse-s3",
+              "creodias-s3"
+            ],
+            "alternate:name": "S3"
+          }
+        },
+        "file:size": 26037,
+        "proj:shape": [
+          343,
+          343
+        ],
+        "file:checksum": "d501101be384227d0c47efaf91c80796e2205a",
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035-ql.jpg",
+        "type": "image/jpeg",
+        "title": "Quicklook",
+        "data_type": "uint8",
+        "proj:code": null,
+        "alternate:name": "HTTPS"
+      },
+      "safe_manifest": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/manifest.safe",
+        "roles": [
+          "metadata"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(manifest.safe)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 69120,
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "file:checksum": "d50110e5a8af8e1bc354c1fea20f617a86b7aa",
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/manifest.safe",
+        "type": "application/xml",
+        "title": "manifest.safe",
+        "alternate:name": "S3"
+      },
+      "granule_metadata": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/MTD_TL.xml",
+        "roles": [
+          "metadata"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(GRANULE)/Nodes(L2A_T45QTG_A050052_20261006T050354)/Nodes(MTD_TL.xml)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 371040,
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "file:checksum": "d501200b0779142ef08b6796a62fdb3ac218a58400cf1952dab1a36715db7618996e3b",
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/GRANULE/L2A_T45QTG_A050052_20261006T050354/MTD_TL.xml",
+        "type": "application/xml",
+        "title": "MTD_TL.xml",
+        "alternate:name": "S3"
+      },
+      "inspire_metadata": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/INSPIRE.xml",
+        "roles": [
+          "metadata"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(INSPIRE.xml)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 18860,
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "file:checksum": "d50120be670d0d4e8756e723cc22251dcc37fa99e3212055020771163a31b20ea0471a",
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/INSPIRE.xml",
+        "type": "application/xml",
+        "title": "INSPIRE.xml",
+        "alternate:name": "S3"
+      },
+      "product_metadata": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/MTD_MSIL2A.xml",
+        "roles": [
+          "metadata"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(MTD_MSIL2A.xml)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 53791,
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "file:checksum": "d50120b5d90ac2c05674e08943a60609cea650487329b14628e7e1815ac34c3d4cc227",
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/MTD_MSIL2A.xml",
+        "type": "application/xml",
+        "title": "MTD_MSIL2A.xml",
+        "alternate:name": "S3"
+      },
+      "datastrip_metadata": {
+        "href": "s3://eodata/Sentinel-2/MSI/L2A/2026/10/06/S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/DATASTRIP/DS_2BPS_20261006T085035_S20261006T050354/MTD_DS.xml",
+        "roles": [
+          "metadata"
+        ],
+        "alternate": {
+          "https": {
+            "href": "https://download.dataspace.copernicus.eu/odata/v1/Products(d5b2e8c6-1070-48c7-80ce-8693b1a3856a)/Nodes(S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE)/Nodes(DATASTRIP)/Nodes(DS_2BPS_20261006T085035_S20261006T050354)/Nodes(MTD_DS.xml)/$value",
+            "auth:refs": [
+              "oidc"
+            ],
+            "storage:refs": [],
+            "alternate:name": "HTTPS"
+          }
+        },
+        "auth:refs": [
+          "s3"
+        ],
+        "file:size": 18922527,
+        "storage:refs": [
+          "cdse-s3",
+          "creodias-s3"
+        ],
+        "file:checksum": "d501207329a122d73cd6fb731df1d8f29e4a9dbe1c1f9154e9985fa1c5dae68f818e45",
+        "file:local_path": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE/DATASTRIP/DS_2BPS_20261006T085035_S20261006T050354/MTD_DS.xml",
+        "type": "application/xml",
+        "title": "MTD_DS.xml",
+        "alternate:name": "S3"
+      }
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            84.89419307709734,
+            24.398135088066788
+          ],
+          [
+            84.04228654820622,
+            24.38453509735151
+          ],
+          [
+            84.06474044445332,
+            23.394092946074444
+          ],
+          [
+            84.6323757629083,
+            23.402808876049544
+          ],
+          [
+            84.89419307709734,
+            24.398135088066788
+          ]
+        ]
+      ]
+    },
+    "collection": "sentinel-2-l2a",
+    "properties": {
+      "gsd": 10,
+      "created": "2026-10-06T09:28:09.000000Z",
+      "expires": "2262-01-01T00:00:00.000000Z",
+      "updated": "2026-10-06T09:32:46.919969Z",
+      "_private": {
+        "visible": true,
+        "product_name": "S2B_MSIL2A_20261006T045659_N0513_R119_T45QTG_20261006T085035.SAFE",
+        "product_size": 792103039,
+        "product_uuid": "d5b2e8c6-1070-48c7-80ce-8693b1a3856a"
+      },
+      "datetime": "2026-10-06T04:56:59.024000Z",
+      "platform": "sentinel-2b",
+      "grid:code": "MGRS-45QTG",
+      "published": "2026-10-06T09:32:46.919969Z",
+      "statistics": {
+        "water": 0.134707,
+        "nodata": 34.447038,
+        "dark_area": 0.027969,
+        "vegetation": 49.244848,
+        "thin_cirrus": 0.542532,
+        "cloud_shadow": 7.839242,
+        "unclassified": 5.077568,
+        "not_vegetated": 11.250737,
+        "high_proba_clouds": 12.46867,
+        "medium_proba_clouds": 13.413729,
+        "saturated_defective": 0.0
+      },
+      "instruments": [
+        "msi"
+      ],
+      "auth:schemes": {
+        "s3": {
+          "type": "s3"
+        },
+        "oidc": {
+          "type": "openIdConnect",
+          "openIdConnectUrl": "https://identity.dataspace.copernicus.eu/auth/realms/CDSE/.well-known/openid-configuration"
+        }
+      },
+      "end_datetime": "2026-10-06T04:56:59.024000Z",
+      "product:type": "S2MSI2A",
+      "view:azimuth": 285.1383870233752,
+      "constellation": "sentinel-2",
+      "eo:snow_cover": 0.0,
+      "eo:cloud_cover": 26.42,
+      "start_datetime": "2026-10-06T04:56:59.024000Z",
+      "sat:orbit_state": "descending",
+      "storage:schemes": {
+        "cdse-s3": {
+          "type": "custom-s3",
+          "class": "hot",
+          "title": "Copernicus Data Space Ecosystem S3",
+          "platform": "https://eodata.dataspace.copernicus.eu",
+          "description": "This endpoint provides access to EO data which is stored on the object storage of both CloudFerro Cloud and OpenTelekom Cloud (OTC). See the [documentation](https://documentation.dataspace.copernicus.eu/APIs/S3.html) for more information, including how to get credentials.",
+          "requester_pays": false
+        },
+        "creodias-s3": {
+          "type": "custom-s3",
+          "class": "hot",
+          "title": "CREODIAS S3",
+          "platform": "https://eodata.cloudferro.com",
+          "description": "Comprehensive Earth Observation Data (EODATA) archive offered by CREODIAS as a commercial part of CDSE, designed to provide users with access to a vast repository of satellite data without predefined quota limits.",
+          "requester_pays": true
+        }
+      },
+      "eopf:datatake_id": "GS2B_20261006T045659_050052_N05.13",
+      "processing:level": "L2",
+      "view:sun_azimuth": 152.285710276696,
+      "eopf:datastrip_id": "S2B_OPER_MSI_L2A_DS_2BPS_20261006T085035_S20261006T050354_N05.13",
+      "processing:version": "05.13",
+      "product:timeliness": "PT24H",
+      "sat:absolute_orbit": 50052,
+      "sat:relative_orbit": 119,
+      "view:sun_elevation": 57.7444567059063,
+      "processing:datetime": "2026-10-06T08:50:35.000000Z",
+      "processing:facility": "ESA",
+      "processing:software": {
+        "eometadatatool": "0"
+      },
+      "eopf:instrument_mode": "INS-NOBS",
+      "eopf:origin_datetime": "2026-10-06T09:28:09.000000Z",
+      "view:incidence_angle": 8.970356755085474,
+      "product:timeliness_category": "NRT",
+      "sat:platform_international_designator": "2017-013A"
+    },
+    "stac_extensions": [
+      "https://cs-si.github.io/eopf-stac-extension/v1.2.0/schema.json",
+      "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json",
+      "https://stac-extensions.github.io/authentication/v1.1.0/schema.json",
+      "https://stac-extensions.github.io/classification/v2.0.0/schema.json",
+      "https://stac-extensions.github.io/eo/v2.0.0/schema.json",
+      "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+      "https://stac-extensions.github.io/grid/v1.1.0/schema.json",
+      "https://stac-extensions.github.io/processing/v1.2.0/schema.json",
+      "https://stac-extensions.github.io/product/v1.0.0/schema.json",
+      "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+      "https://stac-extensions.github.io/raster/v2.0.0/schema.json",
+      "https://stac-extensions.github.io/sat/v1.1.0/schema.json",
+      "https://stac-extensions.github.io/storage/v2.0.0/schema.json",
+      "https://stac-extensions.github.io/timestamps/v1.1.0/schema.json",
+      "https://stac-extensions.github.io/view/v1.1.0/schema.json"
+    ],
+    "stac_version": "1.1.0"
+  }
+}

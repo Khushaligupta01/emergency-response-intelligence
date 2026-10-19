@@ -30,3 +30,12 @@ Thumbs.db
 # Temporary
 *.tmp
 *.temp
+
+# Large project datasets - keep locally, do not commit
+data/raw/sentinel/
+data/external/osm/geofabrik/
+data/raw/osm/
+data/external/population/*.tif
+data/processed/osm/bihar_buildings.geojson
+data/processed/impact/affected_buildings.geojson
+data/external/population/worldpop/*.tif

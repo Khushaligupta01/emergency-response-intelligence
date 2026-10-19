@@ -1,0 +1,10 @@
+{
+  "source": "NDMA SACHET",
+  "collection_type": "raw",
+  "rss_url": "https://sachet.ndma.gov.in/cap_public_website/rss/rss_india.xml",
+  "cap_files": [
+    "cap_1791779133253016.xml",
+    "cap_1791887865756041.xml"
+  ],
+  "rss_file": "rss_india_20261014_092343.xml"
+}

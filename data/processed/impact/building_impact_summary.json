@@ -1,0 +1,24 @@
+{
+  "event_id": 1104121,
+  "episode_id": 20,
+  "polygon_type": "Poly_Affected",
+  "hazard_semantics": "GDACS reported affected area",
+  "not_observed_inundation": true,
+  "source_buildings": "OpenStreetMap (OSM) contributors, downloaded through Geofabrik",
+  "source_flood": "GDACS",
+  "analysis_crs": "EPSG:32645",
+  "area_method": "Each original OSM footprint is intersected with the selected affected-area geometry; areas are measured in EPSG:32645. Affected building count includes unique OSM features with positive-area overlap. Containment checks allow at most 0.0001 m\u00b2 of numerical overlay residue.",
+  "output_geometry_semantics": "Polygon portions of unique OSM building footprints within the GDACS reported affected area.",
+  "total_count": 200402,
+  "affected_count": 198182,
+  "affected_percent": 98.89222662448478,
+  "total_footprint_area_km2": 20.544126997278216,
+  "affected_footprint_area_km2": 20.437000117494968,
+  "affected_footprint_percent": 99.47855228991992,
+  "output_file": "affected_buildings.geojson",
+  "limitations": [
+    "GDACS geometry denotes an analyst-reported affected area, not observed inundation.",
+    "OSM building footprint completeness is variable; unrecorded buildings are not included.",
+    "Footprint area sums features individually and may double-count overlapping OSM geometries."
+  ]
+}

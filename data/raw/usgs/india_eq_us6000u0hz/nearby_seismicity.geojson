@@ -1,0 +1,159 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1791970046000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&latitude=30.1171&longitude=79.6148&maxradiuskm=250&starttime=2026-09-15&endtime=2026-10-14&minmagnitude=2&orderby=time",
+    "title": "USGS Earthquakes",
+    "status": 200,
+    "api": "2.8.1",
+    "count": 4
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.4,
+        "place": "15 km ENE of Uttarkāshi, India",
+        "time": 1791643051499,
+        "updated": 1791652626040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1f1",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u1f1&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 298,
+        "net": "us",
+        "code": "6000u1f1",
+        "ids": ",us6000u1f1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 51,
+        "dmin": 5.323,
+        "rms": 0.68,
+        "gap": 85,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.4 - 15 km ENE of Uttarkāshi, India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.5848, 30.8049, 22.021]
+      },
+      "id": "us6000u1f1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "31 km NW of Bāgeshwar, India",
+        "time": 1791305592231,
+        "updated": 1791552407990,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0hz",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u0hz&format=geojson",
+        "felt": 50,
+        "cdi": 4.6,
+        "mmi": 5.32,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 423,
+        "net": "us",
+        "code": "6000u0hz",
+        "ids": ",us6000u0hz,",
+        "sources": ",us,",
+        "types": ",dyfi,ground-failure,impact-text,losspager,origin,phase-data,shakemap,",
+        "nst": 146,
+        "dmin": 6.439,
+        "rms": 0.47,
+        "gap": 29,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.1 - 31 km NW of Bāgeshwar, India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.5468, 30.0423, 16.528]
+      },
+      "id": "us6000u0hz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4,
+        "place": "57 km NW of Jumla, Nepal",
+        "time": 1789512191450,
+        "updated": 1791417303040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiz3",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tiz3&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 246,
+        "net": "us",
+        "code": "7000tiz3",
+        "ids": ",us7000tiz3,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 8.27,
+        "rms": 0.48,
+        "gap": 117,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.0 - 57 km NW of Jumla, Nepal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [81.7592, 29.6348, 10]
+      },
+      "id": "us7000tiz3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.1,
+        "place": "55 km WNW of Jumla, Nepal",
+        "time": 1789502771362,
+        "updated": 1790701227040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiyx",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tiyx&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 259,
+        "net": "us",
+        "code": "7000tiyx",
+        "ids": ",us7000tiyx,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 8.283,
+        "rms": 0.87,
+        "gap": 175,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.1 - 55 km WNW of Jumla, Nepal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [81.6398, 29.4419, 10]
+      },
+      "id": "us7000tiyx"
+    }
+  ],
+  "bbox": [78.5848, 29.4419, 10, 81.7592, 30.8049, 22.021]
+}
+

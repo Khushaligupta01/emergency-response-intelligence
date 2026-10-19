@@ -1,0 +1,83 @@
+{
+  "source": "OpenStreetMap (OSM) contributors, downloaded through Geofabrik",
+  "source_url": "https://download.geofabrik.de/asia/india/eastern-zone-261015-free.gpkg.zip",
+  "source_region": "Geofabrik Eastern Zone (regional extract includes Bihar)",
+  "source_snapshot_date": "2026-10-15",
+  "processed_at_utc": "2026-10-16T14:22:49.820440+00:00",
+  "license": "Open Database License (ODbL) 1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "geofabrik_download_page": "https://download.geofabrik.de/asia/india/eastern-zone.html",
+  "geofabrik_extract_technical_notes": "https://download.geofabrik.de/technical.html",
+  "source_archive": "data\\external\\osm\\geofabrik\\eastern-zone-261015-free.gpkg.zip",
+  "source_archive_bytes": 605587644,
+  "source_archive_sha256": "e18835135cea721f8552d751c07b7b268f0b2014900c28df0569b3023f853466",
+  "source_geopackage": "data\\external\\osm\\geofabrik\\eastern-zone-261015-indexed.gpkg",
+  "source_geopackage_bytes": 1318637568,
+  "source_geopackage_sha256": "3dbda7df34f10bf6a652c38882cfff9f3c019f9aedc2849660ac3fb6be1e7b4d",
+  "source_unindexed_geopackage": "data\\external\\osm\\geofabrik\\eastern-zone-261015.gpkg",
+  "spatial_index_processing": "Added a GeoPackage R-tree index to a derived copy of the extracted source; downloaded archive and extracted feature records remain unchanged.",
+  "source_layer": "gis_osm_buildings_a_free",
+  "source_layer_feature_count": 2054000,
+  "source_layer_geometry_type": "MultiPolygon",
+  "source_crs": "EPSG:4326",
+  "boundary": {
+    "name": "Bihar",
+    "source": "geoBoundaries gbOpen India ADM1",
+    "file": "data\\external\\boundaries\\bihar_boundary.geojson",
+    "crs": "EPSG:4326",
+    "bounds": [
+      83.32023795297891,
+      24.28618189657001,
+      88.3005210359258,
+      27.521631570162608
+    ],
+    "area_km2_epsg32645": 94192.47009610117
+  },
+  "processing_steps": [
+    "Read the Geofabrik Eastern Zone GeoPackage OSM building polygon layer.",
+    "Use an R-tree index on a derived source copy for the Bihar bounding-box filter.",
+    "Check source geometry validity and use Shapely vectorized intersection against a 1e-10 degree inward Bihar boundary mask to remove numerical edge slivers.",
+    "Preserve each OSM feature separately and retain its source osm_id; do not synthesize, grid, or dissolve buildings.",
+    "Write GeoJSON coordinates in EPSG:4326; calculate footprint area in EPSG:32645."
+  ],
+  "crs": "EPSG:4326",
+  "output_file": "data\\processed\\osm\\bihar_buildings.geojson",
+  "feature_count": 200402,
+  "valid_building_features": 200402,
+  "invalid_building_features": 0,
+  "repaired_building_features": 0,
+  "source_bbox_candidate_count": 344830,
+  "source_invalid_geometry_count_in_bihar_bbox": 0,
+  "source_repaired_geometry_count_in_bihar_bbox": 0,
+  "source_invalid_geometry_types": {},
+  "source_invalid_osm_ids_in_bihar_bbox": [],
+  "clip_repaired_osm_ids": [],
+  "source_repair_result_type_changes": {},
+  "features_excluded_after_repair": [],
+  "non_polygonal_parts_excluded_counts": {},
+  "features_without_polygon_after_clip": 0,
+  "features_not_intersecting_bihar": 144428,
+  "area_calculation_crs": "EPSG:32645",
+  "total_building_footprint_area_km2": 20.54412699727823,
+  "area_sum_note": "Sum of individual clipped OSM footprint areas; overlapping mapped polygons, if present, are counted separately.",
+  "bounding_box_epsg4326": [
+    83.36001,
+    24.3119765,
+    88.2636704,
+    27.5042788
+  ],
+  "coverage_relative_to_bihar": {
+    "all_output_features_intersect_bihar": true,
+    "all_output_features_contained_by_bihar": true,
+    "mapped_footprint_area_percent_of_bihar": 0.021810795466259456,
+    "interpretation": "Mapped footprint area as a proportion of projected Bihar boundary area, not a completeness estimate; OSM is not guaranteed to map every building."
+  },
+  "synthetic_generation_used": false,
+  "limitations": [
+    "OSM building coverage is incomplete and varies geographically; absence of a footprint does not mean no building exists.",
+    "Geofabrik free GeoPackage extracts retain selected OSM attributes and are not a full history-preserving OSM dump.",
+    "Footprint area sums can double-count overlapping mapped polygons."
+  ],
+  "source_archive_modified_at_utc": "2026-10-16T11:52:18.058524+00:00"
+}

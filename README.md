@@ -5,14 +5,32 @@ An AI-powered full-stack platform for disaster management, emergency resource pl
 
 ## Project Status
 
-🚧 Initial project setup and architecture phase.
+The backend foundation, real-data geospatial impact assessment, geographic zone classification baseline, transactional resource inventory, PostGIS database, and official GDACS/USGS/SACHET ingestion with Copernicus metadata discovery are implemented. Satellite damage estimation, demand prediction, optimization, routing, and operational dashboards remain out of scope for the current phase.
 
-The current repository contains the development structure, backend/frontend scaffolding, database configuration, and infrastructure setup. Core AI and disaster-management functionality will be implemented in later development phases.
+The repository also contains the frontend scaffold and infrastructure configuration for later development phases.
+
+### Resource inventory
+
+The backend resource inventory uses configurable resource types, PostGIS depot locations, transaction-backed stock balances, and an auditable receipt/consumption/transfer ledger. See [the inventory design and usage notes](./docs/resource-inventory.md).
+
+### Geographic zone classification
+
+The Step 3 grid aggregates the existing GDACS reported affected area, OSM building impacts, and WorldPop estimates in a projected Bihar grid. Its configurable severity score is an engineering baseline, not a validated domain model. See [the geographic zone classification methodology](./docs/geographic-zone-classification.md).
+
+### PostGIS database
+
+The Week 1–2 schema stores disaster/source provenance, hazard geometries, impact zones, population raster metadata and exposure summaries, OSM building exposure footprints, infrastructure inventory structure, resource inventory, and field operations. See [the PostGIS schema and data-loading notes](./docs/postgis-database-implementation.md).
+
+### Multi-source disaster ingestion
+
+Official GDACS, USGS, NDMA/SACHET CAP, and Copernicus STAC metadata ingestion is documented in [the source integration notes](./docs/disaster-source-integration.md). Polling and catalogue discovery are implemented; satellite damage estimation is not.
 
 ## Planned Capabilities
 
-- Disaster data ingestion
+- Automated source-refresh scheduling and monitoring
 - Geospatial impact assessment
+- Geographic grid and severity classification baseline
+- Auditable resource inventory management
 - Disaster zone classification
 - Population and vulnerability analysis
 - Resource demand prediction

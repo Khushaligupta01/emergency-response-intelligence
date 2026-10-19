@@ -1,0 +1,95 @@
+{
+  "event_id": 1104121,
+  "episode_id": 20,
+  "polygon_type": "Poly_Affected",
+  "disaster_id": 1,
+  "hazard_semantics": "GDACS analyst-reported affected area; not observed inundation",
+  "source_file": "data\\processed\\gdacs\\FL_1104121\\bihar_flood_extent.geojson",
+  "step1_flood_metadata": "data\\processed\\gdacs\\FL_1104121\\bihar_flood_extent_metadata.json",
+  "source_geometry_url": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=FL&eventid=1104121&episodeid=20",
+  "step2d_inputs": {
+    "buildings": "data\\processed\\impact\\affected_buildings.geojson",
+    "building_summary": "data\\processed\\impact\\building_impact_summary.json",
+    "population": "data\\processed\\population\\bihar_population.tif",
+    "population_summary": "data\\processed\\impact\\population_impact_summary.json",
+    "combined_impact_summary": "data\\processed\\impact\\impact_assessment_summary.json"
+  },
+  "grid": {
+    "cell_size_m": 10000,
+    "analysis_crs": "EPSG:32645",
+    "storage_crs": "EPSG:4326",
+    "alignment": "Grid origin aligned to multiples of cell_size_m in EPSG:32645.",
+    "row_count": 37,
+    "column_count": 51,
+    "origin_x_m": 120000,
+    "origin_y_m": 2680000,
+    "clipping": "Each projected square cell is intersected with the selected GDACS affected area; only positive-area intersections are retained."
+  },
+  "features": {
+    "available": [
+      "disaster_exposure (clipped hazard coverage / full square-cell area)",
+      "population_exposure (WorldPop people-per-pixel sum normalized by the maximum grid-cell sum)",
+      "building_exposure (unique affected OSM footprints normalized by the maximum grid-cell count)",
+      "affected_population (estimated people)",
+      "population_valid_pixel_count",
+      "affected_building_count",
+      "affected_building_footprint_area_km2"
+    ],
+    "unavailable": [
+      "infrastructure_exposure: no approved infrastructure dataset is available in Step 1/2 inputs",
+      "vulnerability: no approved vulnerability dataset is available for this study area"
+    ],
+    "population_assignment": "Every valid WorldPop pixel whose center lies in the GDACS affected area is assigned once to its containing projected grid cell. Source values are estimated people per pixel, not people per km2.",
+    "building_assignment": "Each unique Step 2D clipped OSM building feature is assigned once by an interior point; its clipped footprint area is partitioned across intersected projected grid squares.",
+    "normalization": "Population and building exposures are divided by their respective observed maximum cell values; zero-valued populations/counts normalize to zero when the maximum is zero. Disaster exposure is the clipped-area fraction, bounded to [0,1]."
+  },
+  "score": {
+    "kind": "configurable engineering baseline; weights are not scientifically validated",
+    "formula": "weighted sum of available normalized features divided by the sum of their configured weights",
+    "configured_weights": {
+      "disaster_exposure": 0.4,
+      "population_exposure": 0.25,
+      "building_exposure": 0.15,
+      "infrastructure_exposure": 0.1,
+      "vulnerability": 0.1
+    },
+    "available_weight_sum": 0.8,
+    "effective_weights": {
+      "disaster_exposure": 0.5,
+      "population_exposure": 0.3125,
+      "building_exposure": 0.18749999999999997
+    },
+    "excluded_features": [
+      "infrastructure_exposure",
+      "vulnerability"
+    ],
+    "not_a_validated_domain_model": true
+  },
+  "severity_thresholds": {
+    "Low": "score < 0.25",
+    "Moderate": "0.25 <= score < 0.5",
+    "High": "0.5 <= score < 0.75",
+    "Critical": "score >= 0.75",
+    "configurable_values": {
+      "moderate_min": 0.25,
+      "high_min": 0.5,
+      "critical_min": 0.75
+    }
+  },
+  "validation_inputs": {
+    "step2d_affected_population": 127789039.64787817,
+    "step2d_affected_pixels": 4721961,
+    "step2d_affected_buildings": 198182,
+    "step2d_affected_building_area_km2": 20.437000117494968,
+    "step2d_summary_confirmed_no_synthetic_data": true,
+    "step2d_summary_confirmed_no_poly_global": true
+  },
+  "limitations": [
+    "The GDACS polygon is an analyst-reported affected area, not an observed satellite-derived inundation extent.",
+    "The score is an engineering baseline using configurable weights, not scientifically validated domain weights.",
+    "Infrastructure and approved vulnerability data are unavailable and therefore omitted, not fabricated.",
+    "Population is a modelled WorldPop estimate in people per grid pixel; NoData cells are excluded.",
+    "OSM building completeness is variable and footprints are not a complete building census.",
+    "The grid is a geographic summarization of reported-area exposure, not a prediction of damage or actual flooding."
+  ]
+}
