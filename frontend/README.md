@@ -1,75 +1,47 @@
-# React + TypeScript + Vite
+# Emergency Response dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The frontend is a React, TypeScript, and Vite operational dashboard backed by the project's FastAPI and PostgreSQL/PostGIS data. It does not ship sample disaster values or stock balances.
 
-Currently, two official plugins are available:
+## Run locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. Start PostgreSQL with PostGIS and apply the backend migrations/load the validated data as described in [`../docs/postgis-database-implementation.md`](../docs/postgis-database-implementation.md).
+2. From the repository root, start the API:
 
-## React Compiler
+   ```powershell
+   Push-Location .\backend
+   .\.venv\Scripts\python.exe -m uvicorn app.main:app --reload
+   ```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. In another terminal, start the frontend:
 
-## Expanding the ESLint configuration
+   ```powershell
+   Push-Location .\frontend
+   npm install
+   npm run dev
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+4. Open the local Vite address, normally `http://localhost:5173`.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+The API defaults to `http://127.0.0.1:8000`. Copy `.env.example` to `.env.local` and set `VITE_API_BASE_URL` only if the API is hosted elsewhere. Do not commit `.env.local`.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Dashboard pages
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- **Overview** — selected GDACS Bihar event, persisted population/building exposure, impact-zone severity counts, and source-ingestion runs.
+- **Disaster map** — GDACS-reported affected area, impact grid, and optional data-backed building/depot/field-operation layers. Building geometry is queried only for the current bounding box at zoom 13 or higher and capped to 1,000 features per request.
+- **Impact assessment** — persisted exposure totals, charts, and a searchable/sortable zone table. Selecting a row opens that zone on the map.
+- **Resource inventory** — stored balances and immutable movement history. With no configured stock it shows an explicit empty state; the UI does not create or seed inventory.
+- **Data sources** — ingestion status and source provenance, with catalogue discovery distinguished from satellite damage analysis.
+- **System health** — API, database, PostGIS, and ingestion status based on live queries and recorded ingestion runs.
 
+The GDACS geometry is an analyst-reported affected area, not satellite-confirmed flooding. Sentinel catalogue metadata is discovered and stored, but satellite imagery damage analysis is not implemented. Missing aggregate values are shown as unavailable rather than inferred.
+
+## Quality checks
+
+From `frontend/`:
+
+```powershell
+npm run lint
+npm run build
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
+Dashboard API endpoints are documented at `http://127.0.0.1:8000/docs` while the backend is running.

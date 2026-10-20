@@ -5,9 +5,7 @@ An AI-powered full-stack platform for disaster management, emergency resource pl
 
 ## Project Status
 
-The backend foundation, real-data geospatial impact assessment, geographic zone classification baseline, transactional resource inventory, PostGIS database, and official GDACS/USGS/SACHET ingestion with Copernicus metadata discovery are implemented. Satellite damage estimation, demand prediction, optimization, routing, and operational dashboards remain out of scope for the current phase.
-
-The repository also contains the frontend scaffold and infrastructure configuration for later development phases.
+The backend foundation, real-data geospatial impact assessment, geographic zone classification baseline, transactional resource inventory, PostGIS database, and official GDACS/USGS/SACHET ingestion with Copernicus metadata discovery are implemented. The Week 1–2 operational dashboard now reads those records through read-only FastAPI endpoints. Satellite damage estimation, demand prediction, optimization, routing, and inventory write APIs are not implemented.
 
 ### Resource inventory
 
@@ -28,17 +26,30 @@ Official GDACS, USGS, NDMA/SACHET CAP, and Copernicus STAC metadata ingestion is
 ## Planned Capabilities
 
 - Automated source-refresh scheduling and monitoring
-- Geospatial impact assessment
-- Geographic grid and severity classification baseline
-- Auditable resource inventory management
-- Disaster zone classification
-- Population and vulnerability analysis
+- Satellite imagery damage estimation
 - Resource demand prediction
 - Resource allocation optimization
 - Logistics and route planning
-- Emergency response command dashboard
+- Inventory management API and UI write workflows
 - Field mission management
 - Post-event analytics
+
+## Run the operational dashboard
+
+The dashboard reads the existing PostgreSQL/PostGIS database; it does not use fake fallback metrics. Start the API from `backend/`:
+
+```powershell
+.\.venv\Scripts\python.exe -m uvicorn app.main:app --reload
+```
+
+Then start the Vite frontend in a second terminal from `frontend/`:
+
+```powershell
+npm install
+npm run dev
+```
+
+Open the local URL printed by Vite. Dashboard setup, page details, and environment configuration are in [the frontend README](./frontend/README.md). The API documentation is available at `http://127.0.0.1:8000/docs`.
 
 ## Architecture
 
